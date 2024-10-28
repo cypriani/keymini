@@ -1,0 +1,4 @@
+/pcb/keymini/keymini-backups/
+*~
+/firmware/target
+*.bin
