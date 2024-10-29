@@ -91,7 +91,7 @@ module pcb() {
         color([0.8,0.8,0.8]) translate([0,top,3.2/2]) rotate([90,0,0]) linear_extrude(7.5)
             rounded_square([9, 3.2], r=1, center=true);
         // MCU
-        color([0.1,0.1,0.1]) translate([0,-17*2]) linear_extrude(1.6)
+        color([0.1,0.1,0.1]) translate([0,-17*2.5]) linear_extrude(1.6)
             rounded_square([10,10], r=1, center=true);
         // diodes
         diode_placement() sod323();
@@ -103,7 +103,7 @@ module plate() {
         difference() {
             linear_extrude(pcb_depth) difference() {
                 outline(plate_with_interior);
-                translate([0, top-7.5/2]) square([9+0.2, 7.5+0.2], center=true);
+                translate([0, top-7.5/2]) square([9+0.4, 7.5+0.4], center=true);
                 key_placement() square([14, 14], center=true);
             }
             key_placement() linear_extrude(pcb_depth-1.2) square([15, 15], center=true);
