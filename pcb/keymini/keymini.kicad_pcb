@@ -1027,11 +1027,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "07fafcbb-4354-4174-87c5-69680cca0fcb")
-		(at 80.55 183.1)
+		(at 118.43 88.274 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D4D1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "3dd6e7c1-1dde-4f31-a2b2-9f0f292ee00d")
 			(effects
@@ -1042,7 +1042,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 165)
 			(layer "F.Fab")
 			(uuid "0f781e7d-d5a3-4d20-9aea-f271facfc00d")
 			(effects
@@ -1053,7 +1053,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1066,7 +1066,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1079,7 +1079,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1092,7 +1092,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1105,7 +1105,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1122,6 +1122,16 @@
 		(sheetname "Racine")
 		(sheetfile "keymini.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -1.61 0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a9058c13-6720-41a5-a181-98a39db5e54b")
+		)
 		(fp_line
 			(start -1.61 -0.85)
 			(end -1.61 0.85)
@@ -1143,14 +1153,14 @@
 			(uuid "75e4db6e-0dd4-42d8-bd3c-bad24545850f")
 		)
 		(fp_line
-			(start -1.61 0.85)
-			(end 1.05 0.85)
+			(start -1.6 0.95)
+			(end 1.6 0.95)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "a9058c13-6720-41a5-a181-98a39db5e54b")
+			(layer "F.CrtYd")
+			(uuid "be08cafe-079c-4208-b5c5-d514f346029c")
 		)
 		(fp_line
 			(start -1.6 -0.95)
@@ -1173,16 +1183,6 @@
 			(uuid "40c3f8a8-50d3-4620-839f-ba1c85a413fd")
 		)
 		(fp_line
-			(start -1.6 0.95)
-			(end 1.6 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "be08cafe-079c-4208-b5c5-d514f346029c")
-		)
-		(fp_line
 			(start 1.6 -0.95)
 			(end 1.6 0.95)
 			(stroke
@@ -1191,16 +1191,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "6c558823-f650-4c23-a34f-4e8da3b17807")
-		)
-		(fp_line
-			(start -0.9 -0.7)
-			(end 0.9 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "689b5239-3d9a-4d74-a952-32e68d8a184d")
 		)
 		(fp_line
 			(start -0.9 0.7)
@@ -1213,14 +1203,14 @@
 			(uuid "4447bcfa-9c53-4906-9941-921ddd34b421")
 		)
 		(fp_line
-			(start -0.3 -0.35)
-			(end -0.3 0.35)
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "10915833-55a0-4868-8806-68cc1dae4669")
+			(uuid "689b5239-3d9a-4d74-a952-32e68d8a184d")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -1243,24 +1233,14 @@
 			(uuid "4ab8be6f-0262-489b-abab-4a48f4a7f666")
 		)
 		(fp_line
-			(start 0.2 -0.35)
-			(end 0.2 0.35)
+			(start -0.3 -0.35)
+			(end -0.3 0.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ca291ad2-b0f8-4438-ad44-9bbf160a7d3e")
-		)
-		(fp_line
-			(start 0.2 0)
-			(end 0.45 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cd23a065-ebd6-4dfe-9135-9939f00d4165")
+			(uuid "10915833-55a0-4868-8806-68cc1dae4669")
 		)
 		(fp_line
 			(start 0.2 0.35)
@@ -1273,14 +1253,24 @@
 			(uuid "42455fd4-cd22-47ae-b5dd-7bbde3005ce4")
 		)
 		(fp_line
-			(start 0.9 -0.7)
-			(end 0.9 0.7)
+			(start 0.2 0)
+			(end 0.45 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6d5ca09a-b0df-47e7-bd88-22ea19a4356c")
+			(uuid "cd23a065-ebd6-4dfe-9135-9939f00d4165")
+		)
+		(fp_line
+			(start 0.2 -0.35)
+			(end 0.2 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca291ad2-b0f8-4438-ad44-9bbf160a7d3e")
 		)
 		(fp_line
 			(start 0.9 0.7)
@@ -1292,8 +1282,18 @@
 			(layer "F.Fab")
 			(uuid "c6930174-c251-41ad-a24e-f0778f6b6dd9")
 		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d5ca09a-b0df-47e7-bd88-22ea19a4356c")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.Fab")
 			(uuid "8216a357-f295-4b5f-95d8-cbe8b568e666")
 			(effects
@@ -1304,7 +1304,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -1314,7 +1314,7 @@
 			(uuid "53a021ed-dfc5-4745-9e20-442c0076e171")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -3264,11 +3264,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "21110123-a1f0-4bde-b36f-5fd18546928f")
-		(at 240.95 165.2)
+		(at 201.697 59.07 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3H1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "1f780ef0-1250-47e2-83d0-ccdec6c5505c")
 			(effects
@@ -3279,7 +3279,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 15)
 			(layer "F.Fab")
 			(uuid "0d424303-9b8d-422a-87e4-233363ff012d")
 			(effects
@@ -3290,7 +3290,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3303,7 +3303,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3316,7 +3316,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3329,7 +3329,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3342,7 +3342,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3530,7 +3530,7 @@
 			(uuid "7a9c419e-3119-448b-9d83-0793f2ae6e91")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.Fab")
 			(uuid "333805f2-d2b0-4ad6-830a-fdc28db0c84f")
 			(effects
@@ -3541,7 +3541,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -3551,7 +3551,7 @@
 			(uuid "828b3d6d-c251-4ca0-8881-8ca00a48415a")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -3575,11 +3575,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "22d19ece-26bb-4c8d-bf4b-85b3c0093326")
-		(at 98.55 183.1)
+		(at 135.817 92.933 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D4E1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "8c6fa890-d692-4b5e-9148-80c1392fc7a5")
 			(effects
@@ -3590,7 +3590,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 165)
 			(layer "F.Fab")
 			(uuid "a3de842c-5e40-4e60-81f7-077f837416d0")
 			(effects
@@ -3601,7 +3601,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3614,7 +3614,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3627,7 +3627,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3640,7 +3640,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3653,7 +3653,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3670,6 +3670,16 @@
 		(sheetname "Racine")
 		(sheetfile "keymini.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -1.61 0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2f17311e-f25d-477d-b4eb-e359081ebb39")
+		)
 		(fp_line
 			(start -1.61 -0.85)
 			(end -1.61 0.85)
@@ -3691,14 +3701,14 @@
 			(uuid "a060e5dc-7b86-433b-8a31-49f620557c79")
 		)
 		(fp_line
-			(start -1.61 0.85)
-			(end 1.05 0.85)
+			(start -1.6 0.95)
+			(end 1.6 0.95)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "2f17311e-f25d-477d-b4eb-e359081ebb39")
+			(layer "F.CrtYd")
+			(uuid "b68a47ae-ca1d-49cc-87fc-34f96b880166")
 		)
 		(fp_line
 			(start -1.6 -0.95)
@@ -3721,16 +3731,6 @@
 			(uuid "f3f76cef-c521-41d4-9291-16f53dd12030")
 		)
 		(fp_line
-			(start -1.6 0.95)
-			(end 1.6 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b68a47ae-ca1d-49cc-87fc-34f96b880166")
-		)
-		(fp_line
 			(start 1.6 -0.95)
 			(end 1.6 0.95)
 			(stroke
@@ -3739,16 +3739,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "1446c3ac-4c52-4d8a-b55b-930643d53b26")
-		)
-		(fp_line
-			(start -0.9 -0.7)
-			(end 0.9 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d6ba4338-39a3-40fe-876c-9abe05aad4f1")
 		)
 		(fp_line
 			(start -0.9 0.7)
@@ -3761,14 +3751,14 @@
 			(uuid "7ff7c073-1faf-4e2f-add4-7679e8bd5660")
 		)
 		(fp_line
-			(start -0.3 -0.35)
-			(end -0.3 0.35)
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "418bd92f-9d50-4c9a-bf75-85adc2791fb8")
+			(uuid "d6ba4338-39a3-40fe-876c-9abe05aad4f1")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -3791,24 +3781,14 @@
 			(uuid "48aa39af-c824-4838-8659-0eed06d5cfd1")
 		)
 		(fp_line
-			(start 0.2 -0.35)
-			(end 0.2 0.35)
+			(start -0.3 -0.35)
+			(end -0.3 0.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7b4cf6b6-aae1-46d2-b5e3-617cb150fe43")
-		)
-		(fp_line
-			(start 0.2 0)
-			(end 0.45 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2a99686b-3eae-4642-89ef-39362008b023")
+			(uuid "418bd92f-9d50-4c9a-bf75-85adc2791fb8")
 		)
 		(fp_line
 			(start 0.2 0.35)
@@ -3821,14 +3801,24 @@
 			(uuid "b98d53a9-b21c-4461-a068-bd7e9223c534")
 		)
 		(fp_line
-			(start 0.9 -0.7)
-			(end 0.9 0.7)
+			(start 0.2 0)
+			(end 0.45 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "52950d94-7979-4d47-b45c-4d87c773f46e")
+			(uuid "2a99686b-3eae-4642-89ef-39362008b023")
+		)
+		(fp_line
+			(start 0.2 -0.35)
+			(end 0.2 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7b4cf6b6-aae1-46d2-b5e3-617cb150fe43")
 		)
 		(fp_line
 			(start 0.9 0.7)
@@ -3840,8 +3830,18 @@
 			(layer "F.Fab")
 			(uuid "7f864a56-03a5-4706-bcec-ce88e812367d")
 		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "52950d94-7979-4d47-b45c-4d87c773f46e")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.Fab")
 			(uuid "ab8a006f-1f54-4b87-8c34-8e2f40889dc3")
 			(effects
@@ -3852,7 +3852,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -3862,7 +3862,7 @@
 			(uuid "e7258a38-77bf-46bd-9e1f-4d9bcb4eb7cf")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4958,11 +4958,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "362b4665-e828-4993-b7bc-75a7d3270c39")
-		(at 224.95 183.2)
+		(at 181.57 88.274 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D4G1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "184bd64f-33e3-470e-a82c-20c53da0e2c3")
 			(effects
@@ -4973,7 +4973,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 15)
 			(layer "F.Fab")
 			(uuid "a7163c73-2ad2-48a6-8c14-c33dea534e53")
 			(effects
@@ -4984,7 +4984,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4997,7 +4997,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5010,7 +5010,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5023,7 +5023,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5036,7 +5036,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5224,7 +5224,7 @@
 			(uuid "14e54779-53a0-4c3f-ba99-d76456c16f28")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.Fab")
 			(uuid "08d83996-97b8-42a3-8a66-c3ca34e3ec5d")
 			(effects
@@ -5235,7 +5235,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -5245,7 +5245,7 @@
 			(uuid "2bce1076-9737-46d1-8b5e-71871d8057d3")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -9511,11 +9511,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "623ee313-0fee-4513-8737-36599ef8bea6")
-		(at 62.55 164.1)
+		(at 98.303 59.07 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3C1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "9a0e1ac9-c02d-4500-a41a-ce8282cd02be")
 			(effects
@@ -9526,7 +9526,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 165)
 			(layer "F.Fab")
 			(uuid "1b37759e-9e5a-4809-a608-0ac1cab0e845")
 			(effects
@@ -9537,7 +9537,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9550,7 +9550,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9563,7 +9563,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9576,7 +9576,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9589,7 +9589,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9606,6 +9606,16 @@
 		(sheetname "Racine")
 		(sheetfile "keymini.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -1.61 0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d57349eb-faea-4904-8bfd-4e9f99b1d35d")
+		)
 		(fp_line
 			(start -1.61 -0.85)
 			(end -1.61 0.85)
@@ -9627,14 +9637,14 @@
 			(uuid "b13ea89b-1d2e-4ee3-a9a2-10ee135c9002")
 		)
 		(fp_line
-			(start -1.61 0.85)
-			(end 1.05 0.85)
+			(start -1.6 0.95)
+			(end 1.6 0.95)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "d57349eb-faea-4904-8bfd-4e9f99b1d35d")
+			(layer "F.CrtYd")
+			(uuid "6cbb3ea7-4c5a-47c9-b83b-136e00f44e03")
 		)
 		(fp_line
 			(start -1.6 -0.95)
@@ -9657,16 +9667,6 @@
 			(uuid "b0f0a926-f098-4261-854e-993d4da9b64b")
 		)
 		(fp_line
-			(start -1.6 0.95)
-			(end 1.6 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6cbb3ea7-4c5a-47c9-b83b-136e00f44e03")
-		)
-		(fp_line
 			(start 1.6 -0.95)
 			(end 1.6 0.95)
 			(stroke
@@ -9675,16 +9675,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "5bb5def4-b00d-458b-94a1-565c4529ba0c")
-		)
-		(fp_line
-			(start -0.9 -0.7)
-			(end 0.9 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0539f2aa-bdc6-4cbf-990d-d2a87c9159c1")
 		)
 		(fp_line
 			(start -0.9 0.7)
@@ -9697,14 +9687,14 @@
 			(uuid "08792201-e842-4857-a8ee-cf988ed59dc8")
 		)
 		(fp_line
-			(start -0.3 -0.35)
-			(end -0.3 0.35)
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b6ebfb51-48fa-436f-acd0-7d897b578337")
+			(uuid "0539f2aa-bdc6-4cbf-990d-d2a87c9159c1")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -9727,24 +9717,14 @@
 			(uuid "78ee58a2-2d47-43b5-a0d9-1bd364bbb640")
 		)
 		(fp_line
-			(start 0.2 -0.35)
-			(end 0.2 0.35)
+			(start -0.3 -0.35)
+			(end -0.3 0.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f1384d63-5c21-404f-9353-1000807f2063")
-		)
-		(fp_line
-			(start 0.2 0)
-			(end 0.45 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f39e26b5-652b-4188-b7ee-aee95a61a5d6")
+			(uuid "b6ebfb51-48fa-436f-acd0-7d897b578337")
 		)
 		(fp_line
 			(start 0.2 0.35)
@@ -9757,14 +9737,24 @@
 			(uuid "ac9dbf21-0a93-4117-8464-1b176e49a6d5")
 		)
 		(fp_line
-			(start 0.9 -0.7)
-			(end 0.9 0.7)
+			(start 0.2 0)
+			(end 0.45 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4e176690-6478-411e-9be2-7de053edc356")
+			(uuid "f39e26b5-652b-4188-b7ee-aee95a61a5d6")
+		)
+		(fp_line
+			(start 0.2 -0.35)
+			(end 0.2 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f1384d63-5c21-404f-9353-1000807f2063")
 		)
 		(fp_line
 			(start 0.9 0.7)
@@ -9776,8 +9766,18 @@
 			(layer "F.Fab")
 			(uuid "7d9fc218-3746-48cb-9a5f-a00ed1438eff")
 		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4e176690-6478-411e-9be2-7de053edc356")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.Fab")
 			(uuid "dc148f9c-ff79-4044-aa65-1da81aeb2990")
 			(effects
@@ -9788,7 +9788,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -9798,7 +9798,7 @@
 			(uuid "1a5d1e25-48f5-4485-b228-c40596e4608a")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -9822,11 +9822,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "6936ded2-cf5e-4f85-b2c3-b87afb3fe928")
-		(at 42.55 164.1)
+		(at 79.881 58.275 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3B1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "5a8cccbe-eca1-40aa-94c0-765820a83d1a")
 			(effects
@@ -9837,7 +9837,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 165)
 			(layer "F.Fab")
 			(uuid "87f34cb8-d9fa-4005-a915-f6ada838d793")
 			(effects
@@ -9848,7 +9848,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9861,7 +9861,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9874,7 +9874,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9887,7 +9887,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9900,7 +9900,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9917,6 +9917,16 @@
 		(sheetname "Racine")
 		(sheetfile "keymini.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -1.61 0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d6af4908-4880-4ff6-92ca-cd68cfe72cf0")
+		)
 		(fp_line
 			(start -1.61 -0.85)
 			(end -1.61 0.85)
@@ -9938,14 +9948,14 @@
 			(uuid "4d78f388-aa90-4551-a9e1-5fe20e4354c1")
 		)
 		(fp_line
-			(start -1.61 0.85)
-			(end 1.05 0.85)
+			(start -1.6 0.95)
+			(end 1.6 0.95)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "d6af4908-4880-4ff6-92ca-cd68cfe72cf0")
+			(layer "F.CrtYd")
+			(uuid "504f63ab-7c45-4511-8de4-71d91468ed70")
 		)
 		(fp_line
 			(start -1.6 -0.95)
@@ -9968,16 +9978,6 @@
 			(uuid "7c9c3019-e293-4665-a88d-8d4c6fdef539")
 		)
 		(fp_line
-			(start -1.6 0.95)
-			(end 1.6 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "504f63ab-7c45-4511-8de4-71d91468ed70")
-		)
-		(fp_line
 			(start 1.6 -0.95)
 			(end 1.6 0.95)
 			(stroke
@@ -9986,16 +9986,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "4877e30b-eecd-4eaa-8f93-3322c75bc72b")
-		)
-		(fp_line
-			(start -0.9 -0.7)
-			(end 0.9 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "84ef2122-269a-4c80-a2b7-1c16ec89664e")
 		)
 		(fp_line
 			(start -0.9 0.7)
@@ -10008,14 +9998,14 @@
 			(uuid "70effd56-172f-4e29-a064-b409b110a206")
 		)
 		(fp_line
-			(start -0.3 -0.35)
-			(end -0.3 0.35)
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b6dc50e4-4441-4282-b41a-b9dc992aac24")
+			(uuid "84ef2122-269a-4c80-a2b7-1c16ec89664e")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -10038,24 +10028,14 @@
 			(uuid "9e3c6732-c838-4104-a5bb-6438abb1f1bb")
 		)
 		(fp_line
-			(start 0.2 -0.35)
-			(end 0.2 0.35)
+			(start -0.3 -0.35)
+			(end -0.3 0.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fb49d3bb-ee2d-4365-a09c-90bb5f709741")
-		)
-		(fp_line
-			(start 0.2 0)
-			(end 0.45 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a0c06c1a-36b2-4de3-a31b-3e82af033634")
+			(uuid "b6dc50e4-4441-4282-b41a-b9dc992aac24")
 		)
 		(fp_line
 			(start 0.2 0.35)
@@ -10068,14 +10048,24 @@
 			(uuid "ee72f7c4-7533-4ae0-9a93-a79fd0c68529")
 		)
 		(fp_line
-			(start 0.9 -0.7)
-			(end 0.9 0.7)
+			(start 0.2 0)
+			(end 0.45 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0eb15bc2-cb17-4aa7-89d9-db290bfd9e88")
+			(uuid "a0c06c1a-36b2-4de3-a31b-3e82af033634")
+		)
+		(fp_line
+			(start 0.2 -0.35)
+			(end 0.2 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fb49d3bb-ee2d-4365-a09c-90bb5f709741")
 		)
 		(fp_line
 			(start 0.9 0.7)
@@ -10087,8 +10077,18 @@
 			(layer "F.Fab")
 			(uuid "aaa920eb-5a41-4d86-bc47-a5e97817e2e8")
 		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0eb15bc2-cb17-4aa7-89d9-db290bfd9e88")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.Fab")
 			(uuid "2ce2441e-37ef-4563-a535-defe9ef117f4")
 			(effects
@@ -10099,7 +10099,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -10109,7 +10109,7 @@
 			(uuid "12f8e501-f4f1-4ccd-8c34-2469ac25088b")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -11413,11 +11413,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "758588d7-f8d4-4d2b-8759-962661bddf8e")
-		(at 62.55 183.1)
+		(at 101.561 81.683 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D4C1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "ced8aaf4-ec1e-4dc8-8856-b607524717ad")
 			(effects
@@ -11428,7 +11428,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 165)
 			(layer "F.Fab")
 			(uuid "a8571ce3-b0ee-40e4-8d79-78ba62eeca59")
 			(effects
@@ -11439,7 +11439,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11452,7 +11452,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11465,7 +11465,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11478,7 +11478,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11491,7 +11491,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11508,6 +11508,16 @@
 		(sheetname "Racine")
 		(sheetfile "keymini.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -1.61 0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c5c2d04-3fd5-4ef2-acf0-acb7f3f90535")
+		)
 		(fp_line
 			(start -1.61 -0.85)
 			(end -1.61 0.85)
@@ -11529,14 +11539,14 @@
 			(uuid "43eaa4cc-cdd5-429a-ae6e-3889e3275906")
 		)
 		(fp_line
-			(start -1.61 0.85)
-			(end 1.05 0.85)
+			(start -1.6 0.95)
+			(end 1.6 0.95)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "5c5c2d04-3fd5-4ef2-acf0-acb7f3f90535")
+			(layer "F.CrtYd")
+			(uuid "4f6c9b20-abcc-4a07-9931-3a173e41ccae")
 		)
 		(fp_line
 			(start -1.6 -0.95)
@@ -11559,16 +11569,6 @@
 			(uuid "f5240d8d-1ada-4809-986a-b7853326ba8b")
 		)
 		(fp_line
-			(start -1.6 0.95)
-			(end 1.6 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4f6c9b20-abcc-4a07-9931-3a173e41ccae")
-		)
-		(fp_line
 			(start 1.6 -0.95)
 			(end 1.6 0.95)
 			(stroke
@@ -11577,16 +11577,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "6d5efbd8-b7e9-4ae9-98af-2f4f6e02ead9")
-		)
-		(fp_line
-			(start -0.9 -0.7)
-			(end 0.9 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "863662ed-c5d3-469e-af97-edffb90802ce")
 		)
 		(fp_line
 			(start -0.9 0.7)
@@ -11599,14 +11589,14 @@
 			(uuid "1cfd8c94-071b-41ba-ac3f-f3428e16775e")
 		)
 		(fp_line
-			(start -0.3 -0.35)
-			(end -0.3 0.35)
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8068e64e-a3d0-4d86-a3d5-7b5242b5746c")
+			(uuid "863662ed-c5d3-469e-af97-edffb90802ce")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -11629,24 +11619,14 @@
 			(uuid "fb3ec2f2-831e-4e3e-977e-73d142b1bd9e")
 		)
 		(fp_line
-			(start 0.2 -0.35)
-			(end 0.2 0.35)
+			(start -0.3 -0.35)
+			(end -0.3 0.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "825ba60f-5156-4491-a46d-cc9857c8c3d8")
-		)
-		(fp_line
-			(start 0.2 0)
-			(end 0.45 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "909c3c2e-48e9-42c5-a091-a1b1a45738be")
+			(uuid "8068e64e-a3d0-4d86-a3d5-7b5242b5746c")
 		)
 		(fp_line
 			(start 0.2 0.35)
@@ -11659,14 +11639,24 @@
 			(uuid "366eaa96-4566-41cd-ba4b-3e2b7aa0632c")
 		)
 		(fp_line
-			(start 0.9 -0.7)
-			(end 0.9 0.7)
+			(start 0.2 0)
+			(end 0.45 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "79f6e025-ffb0-4d80-bca9-19ea5420c91d")
+			(uuid "909c3c2e-48e9-42c5-a091-a1b1a45738be")
+		)
+		(fp_line
+			(start 0.2 -0.35)
+			(end 0.2 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "825ba60f-5156-4491-a46d-cc9857c8c3d8")
 		)
 		(fp_line
 			(start 0.9 0.7)
@@ -11678,8 +11668,18 @@
 			(layer "F.Fab")
 			(uuid "45a641bb-4dac-4e95-93b5-0222cea59b34")
 		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "79f6e025-ffb0-4d80-bca9-19ea5420c91d")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.Fab")
 			(uuid "5bef327c-eb66-48ae-b27e-80712f78976f")
 			(effects
@@ -11690,7 +11690,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -11700,7 +11700,7 @@
 			(uuid "97ae631c-575d-4e16-ae76-bfae5bfc00c2")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -15557,11 +15557,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "8ef9d6d4-e705-4d1d-8506-4b185aee6f75")
-		(at 98.55 165.1)
+		(at 131.523 74.183 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3E1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "5fe89ccb-fc8a-4149-95df-963962d8a426")
 			(effects
@@ -15572,7 +15572,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 165)
 			(layer "F.Fab")
 			(uuid "a64615d6-5d09-4c49-8d22-7d438023ae1c")
 			(effects
@@ -15583,7 +15583,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15596,7 +15596,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15609,7 +15609,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15622,7 +15622,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15635,7 +15635,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15652,6 +15652,16 @@
 		(sheetname "Racine")
 		(sheetfile "keymini.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -1.61 0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce41ffa8-765a-4f99-a7ea-4ff044fe5994")
+		)
 		(fp_line
 			(start -1.61 -0.85)
 			(end -1.61 0.85)
@@ -15673,14 +15683,14 @@
 			(uuid "f9a6afdc-a7eb-43e9-9e03-0b3b6cc18765")
 		)
 		(fp_line
-			(start -1.61 0.85)
-			(end 1.05 0.85)
+			(start -1.6 0.95)
+			(end 1.6 0.95)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "ce41ffa8-765a-4f99-a7ea-4ff044fe5994")
+			(layer "F.CrtYd")
+			(uuid "ac7d3019-f001-4565-88bf-033639f825e2")
 		)
 		(fp_line
 			(start -1.6 -0.95)
@@ -15703,16 +15713,6 @@
 			(uuid "9675459b-fff7-4f23-9268-a0e056a7b1b6")
 		)
 		(fp_line
-			(start -1.6 0.95)
-			(end 1.6 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ac7d3019-f001-4565-88bf-033639f825e2")
-		)
-		(fp_line
 			(start 1.6 -0.95)
 			(end 1.6 0.95)
 			(stroke
@@ -15721,16 +15721,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "916021ab-b276-41e7-80ce-b33779ecc28a")
-		)
-		(fp_line
-			(start -0.9 -0.7)
-			(end 0.9 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bc643793-acc1-45e9-97bc-f9f967c35890")
 		)
 		(fp_line
 			(start -0.9 0.7)
@@ -15743,14 +15733,14 @@
 			(uuid "17ea3024-2fbc-4dcd-9c60-dc73ad8caa2a")
 		)
 		(fp_line
-			(start -0.3 -0.35)
-			(end -0.3 0.35)
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e1e191c0-727a-41d9-b01f-c54de187ee95")
+			(uuid "bc643793-acc1-45e9-97bc-f9f967c35890")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -15773,24 +15763,14 @@
 			(uuid "2116be24-cdd7-41ba-a66c-f7461dfe1f3a")
 		)
 		(fp_line
-			(start 0.2 -0.35)
-			(end 0.2 0.35)
+			(start -0.3 -0.35)
+			(end -0.3 0.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "852913a6-a8e8-41e5-88af-d9f7106d02f7")
-		)
-		(fp_line
-			(start 0.2 0)
-			(end 0.45 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "14845ccc-8c86-4c3a-a9ac-fa6b05b526f2")
+			(uuid "e1e191c0-727a-41d9-b01f-c54de187ee95")
 		)
 		(fp_line
 			(start 0.2 0.35)
@@ -15803,14 +15783,24 @@
 			(uuid "2a752733-34e0-4e85-9795-9ed52568b47f")
 		)
 		(fp_line
-			(start 0.9 -0.7)
-			(end 0.9 0.7)
+			(start 0.2 0)
+			(end 0.45 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dbad3187-0871-4d15-b090-347f636672a2")
+			(uuid "14845ccc-8c86-4c3a-a9ac-fa6b05b526f2")
+		)
+		(fp_line
+			(start 0.2 -0.35)
+			(end 0.2 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "852913a6-a8e8-41e5-88af-d9f7106d02f7")
 		)
 		(fp_line
 			(start 0.9 0.7)
@@ -15822,8 +15812,18 @@
 			(layer "F.Fab")
 			(uuid "84d34083-07fa-4e4b-87d6-08901188f8b2")
 		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dbad3187-0871-4d15-b090-347f636672a2")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.Fab")
 			(uuid "0261aeaa-75e0-409c-a56e-394d18e469ee")
 			(effects
@@ -15834,7 +15834,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -15844,7 +15844,7 @@
 			(uuid "425442cd-055e-43aa-8f4b-0b3e0a5bce40")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -15868,11 +15868,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "8f22f409-7c12-49d2-a0e2-4a2f707782d7")
-		(at 80.5 164.1)
+		(at 114.654 67.592 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3D1"
-			(at 0 -1.85 0)
+			(at 0.000001 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "f34a5705-c5b5-409e-97e6-9b74cc3da985")
 			(effects
@@ -15883,7 +15883,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.100001 1.9 165)
 			(layer "F.Fab")
 			(uuid "d284a530-4f44-41ff-92e6-e1919728cee2")
 			(effects
@@ -15894,7 +15894,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15907,7 +15907,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15920,7 +15920,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15933,7 +15933,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15946,7 +15946,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -15964,8 +15964,18 @@
 		(sheetfile "keymini.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.61 -0.85)
-			(end -1.61 0.85)
+			(start -1.61 0.850001)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d6845347-93b5-4d92-986f-0e470ed22965")
+		)
+		(fp_line
+			(start -1.61 -0.849999)
+			(end -1.61 0.850001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -15974,7 +15984,7 @@
 			(uuid "936407ec-8c5b-4966-beac-7fe1bc727794")
 		)
 		(fp_line
-			(start -1.61 -0.85)
+			(start -1.61 -0.849999)
 			(end 1.05 -0.85)
 			(stroke
 				(width 0.12)
@@ -15984,14 +15994,14 @@
 			(uuid "a0491dfb-dd34-4739-9da5-5791dcb877c0")
 		)
 		(fp_line
-			(start -1.61 0.85)
-			(end 1.05 0.85)
+			(start -1.6 0.95)
+			(end 1.6 0.95)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "d6845347-93b5-4d92-986f-0e470ed22965")
+			(layer "F.CrtYd")
+			(uuid "3c773f0e-2fd4-4ab1-a6fe-aaefd7d9f05e")
 		)
 		(fp_line
 			(start -1.6 -0.95)
@@ -16014,16 +16024,6 @@
 			(uuid "1a2ef8cf-105a-4c2d-a3ce-9516c070bfc3")
 		)
 		(fp_line
-			(start -1.6 0.95)
-			(end 1.6 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3c773f0e-2fd4-4ab1-a6fe-aaefd7d9f05e")
-		)
-		(fp_line
 			(start 1.6 -0.95)
 			(end 1.6 0.95)
 			(stroke
@@ -16032,16 +16032,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "e70ecf7e-0a8d-4eda-9417-788d39a438ec")
-		)
-		(fp_line
-			(start -0.9 -0.7)
-			(end 0.9 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8b2ddb59-f581-4c1a-a710-b1f8e6cd9d73")
 		)
 		(fp_line
 			(start -0.9 0.7)
@@ -16054,18 +16044,18 @@
 			(uuid "a9a96fc2-feae-41a4-be2a-2a2243ebba8c")
 		)
 		(fp_line
-			(start -0.3 -0.35)
-			(end -0.3 0.35)
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "21e5a9c5-c7d1-4e72-b83d-0940c5aefa4f")
+			(uuid "8b2ddb59-f581-4c1a-a710-b1f8e6cd9d73")
 		)
 		(fp_line
 			(start -0.3 0)
-			(end -0.5 0)
+			(end -0.5 0.000001)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -16075,7 +16065,7 @@
 		)
 		(fp_line
 			(start -0.3 0)
-			(end 0.2 -0.35)
+			(end 0.199999 -0.350001)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -16084,27 +16074,17 @@
 			(uuid "2b428fb6-2a72-4d97-844a-2371197ab135")
 		)
 		(fp_line
-			(start 0.2 -0.35)
-			(end 0.2 0.35)
+			(start -0.3 -0.349999)
+			(end -0.299999 0.350001)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b1c57394-3ea8-404c-bc76-fe89cde864b5")
+			(uuid "21e5a9c5-c7d1-4e72-b83d-0940c5aefa4f")
 		)
 		(fp_line
-			(start 0.2 0)
-			(end 0.45 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b764f980-60e3-4c8d-ad15-eabacac01920")
-		)
-		(fp_line
-			(start 0.2 0.35)
+			(start 0.200001 0.35)
 			(end -0.3 0)
 			(stroke
 				(width 0.1)
@@ -16114,14 +16094,24 @@
 			(uuid "cf2064c4-ac75-47a7-acf2-dc2aca686b78")
 		)
 		(fp_line
-			(start 0.9 -0.7)
-			(end 0.9 0.7)
+			(start 0.2 0)
+			(end 0.45 -0.000001)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7ab1c22f-7b4b-4a25-89dd-132da079c1d1")
+			(uuid "b764f980-60e3-4c8d-ad15-eabacac01920")
+		)
+		(fp_line
+			(start 0.199999 -0.350001)
+			(end 0.200001 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b1c57394-3ea8-404c-bc76-fe89cde864b5")
 		)
 		(fp_line
 			(start 0.9 0.7)
@@ -16133,8 +16123,18 @@
 			(layer "F.Fab")
 			(uuid "0c138805-e9ef-4f50-b241-ed3fe47908eb")
 		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7ab1c22f-7b4b-4a25-89dd-132da079c1d1")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0.000001 -1.85 165)
 			(layer "F.Fab")
 			(uuid "26613503-363e-43ad-b32a-16391c7859bc")
 			(effects
@@ -16145,7 +16145,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -16155,7 +16155,7 @@
 			(uuid "a2f2bd78-f319-4c3c-9f75-5b18b8fc40d3")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -18692,11 +18692,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "a76b7f60-fb47-4197-98c3-85ac27b9e2f0")
-		(at 257.95 165.2)
+		(at 220.119 58.275 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3I1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "b3b00a7a-27e3-4771-82b0-64970594ae82")
 			(effects
@@ -18707,7 +18707,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 15)
 			(layer "F.Fab")
 			(uuid "c475a96b-d82e-471f-be4c-5edc52f6fc79")
 			(effects
@@ -18718,7 +18718,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18731,7 +18731,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18744,7 +18744,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18757,7 +18757,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18770,7 +18770,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -18958,7 +18958,7 @@
 			(uuid "333acbe7-7cf3-4ff4-b038-9d96085bafc0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.Fab")
 			(uuid "e1bf080c-2fc3-421e-9ec0-77fab3a73a3b")
 			(effects
@@ -18969,7 +18969,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -18979,7 +18979,7 @@
 			(uuid "0ff79849-921b-4936-9187-6ced1c0e5246")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -19003,11 +19003,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "ac7e7147-1609-4c16-a934-a025868bfd8a")
-		(at 276.95 165.2)
+		(at 240.612 65.207 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3J1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "5210cc17-db81-45f3-9144-db3e2f6b6ce5")
 			(effects
@@ -19018,7 +19018,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 15)
 			(layer "F.Fab")
 			(uuid "34522284-bf83-449d-bcdb-b6dd1342e9e0")
 			(effects
@@ -19029,7 +19029,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19042,7 +19042,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19055,7 +19055,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19068,7 +19068,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19081,7 +19081,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19269,7 +19269,7 @@
 			(uuid "4d454544-1b7a-4751-bbf5-2306c4a8a5f5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.Fab")
 			(uuid "f11a4d17-63db-4f81-8949-7fcd0a914a00")
 			(effects
@@ -19280,7 +19280,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -19290,7 +19290,7 @@
 			(uuid "eb8547b5-b166-4f30-89ad-41ff6f2ba42e")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -20265,11 +20265,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "b832e695-ed0d-4b64-88ef-542030516776")
-		(at 206.95 165.2)
+		(at 168.477 74.183 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3F1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "32536efd-f619-4e79-a801-9f446f4aaa22")
 			(effects
@@ -20280,7 +20280,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 15)
 			(layer "F.Fab")
 			(uuid "7c42d810-ca3a-447a-9c60-ba23d314a2c2")
 			(effects
@@ -20291,7 +20291,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20304,7 +20304,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20317,7 +20317,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20330,7 +20330,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20343,7 +20343,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20531,7 +20531,7 @@
 			(uuid "52b2d7db-a640-4ec0-8f1b-6380f1d8f62d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.Fab")
 			(uuid "916d0a01-0ac6-46f7-b18e-dd3e2b2d0abf")
 			(effects
@@ -20542,7 +20542,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -20552,7 +20552,7 @@
 			(uuid "50cf93a4-f646-41c2-96ab-b86815345225")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -21533,11 +21533,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "ce802e53-3a0f-4484-80b3-37e58da41471")
-		(at 222.95 165.2)
+		(at 185.346 67.592 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3G1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "e64e4447-e541-4161-9f39-45da8699a067")
 			(effects
@@ -21548,7 +21548,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 15)
 			(layer "F.Fab")
 			(uuid "48af0048-5cf5-4ded-a8a0-4a8948f266e9")
 			(effects
@@ -21559,7 +21559,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21572,7 +21572,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21585,7 +21585,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21598,7 +21598,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21611,7 +21611,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21799,7 +21799,7 @@
 			(uuid "76eac7fd-cfbb-4173-bf56-843f727fcc66")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.Fab")
 			(uuid "658a72cb-6593-4f3a-840f-95ae657ebcb9")
 			(effects
@@ -21810,7 +21810,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -21820,7 +21820,7 @@
 			(uuid "ca7616d0-8bbe-4aa7-9ed0-303294cfe817")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -23403,11 +23403,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "e5b05ff0-084a-451a-a464-eb65dfcf1414")
-		(at 24.55 164.1)
+		(at 59.388 65.207 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D3A1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "8de50815-1db4-4be3-8907-c6aebbfe36cd")
 			(effects
@@ -23418,7 +23418,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 165)
 			(layer "F.Fab")
 			(uuid "3a4ba952-f42b-4f2f-8828-0ffdbae4afed")
 			(effects
@@ -23429,7 +23429,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23442,7 +23442,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23455,7 +23455,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23468,7 +23468,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23481,7 +23481,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 -15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23498,6 +23498,16 @@
 		(sheetname "Racine")
 		(sheetfile "keymini.kicad_sch")
 		(attr smd)
+		(fp_line
+			(start -1.61 0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c810d99-2c72-405d-bd89-544994b53b9b")
+		)
 		(fp_line
 			(start -1.61 -0.85)
 			(end -1.61 0.85)
@@ -23519,14 +23529,14 @@
 			(uuid "95aaa690-6faa-4a74-85c6-8a259b70d330")
 		)
 		(fp_line
-			(start -1.61 0.85)
-			(end 1.05 0.85)
+			(start -1.6 0.95)
+			(end 1.6 0.95)
 			(stroke
-				(width 0.12)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.SilkS")
-			(uuid "5c810d99-2c72-405d-bd89-544994b53b9b")
+			(layer "F.CrtYd")
+			(uuid "570f5e38-82f2-4b67-953f-6c8cf0ae12c5")
 		)
 		(fp_line
 			(start -1.6 -0.95)
@@ -23549,16 +23559,6 @@
 			(uuid "a7b5797e-81c1-4ea4-899d-bcf096d7b79a")
 		)
 		(fp_line
-			(start -1.6 0.95)
-			(end 1.6 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "570f5e38-82f2-4b67-953f-6c8cf0ae12c5")
-		)
-		(fp_line
 			(start 1.6 -0.95)
 			(end 1.6 0.95)
 			(stroke
@@ -23567,16 +23567,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "c5b04982-94be-4fcd-904d-8ac691fe9ecd")
-		)
-		(fp_line
-			(start -0.9 -0.7)
-			(end 0.9 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e81af719-84af-4243-b737-2ebc85896d88")
 		)
 		(fp_line
 			(start -0.9 0.7)
@@ -23589,14 +23579,14 @@
 			(uuid "1dd764cd-2587-4c98-9ee2-6f24f577f5c7")
 		)
 		(fp_line
-			(start -0.3 -0.35)
-			(end -0.3 0.35)
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0e9a7b6b-0511-4122-8a12-465231a30e47")
+			(uuid "e81af719-84af-4243-b737-2ebc85896d88")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -23619,24 +23609,14 @@
 			(uuid "d112a9bf-907d-42a4-bb6f-3074ce672ec6")
 		)
 		(fp_line
-			(start 0.2 -0.35)
-			(end 0.2 0.35)
+			(start -0.3 -0.35)
+			(end -0.3 0.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9eab91cd-2eb3-46a2-863e-29734c08369d")
-		)
-		(fp_line
-			(start 0.2 0)
-			(end 0.45 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cf0d8050-4230-4be4-9fa3-f5f9e0aea930")
+			(uuid "0e9a7b6b-0511-4122-8a12-465231a30e47")
 		)
 		(fp_line
 			(start 0.2 0.35)
@@ -23649,14 +23629,24 @@
 			(uuid "f45b28d9-6752-4f5e-9d3d-91facd49fd54")
 		)
 		(fp_line
-			(start 0.9 -0.7)
-			(end 0.9 0.7)
+			(start 0.2 0)
+			(end 0.45 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e130ce8b-f5b1-4262-8ba1-f9e65a5801ef")
+			(uuid "cf0d8050-4230-4be4-9fa3-f5f9e0aea930")
+		)
+		(fp_line
+			(start 0.2 -0.35)
+			(end 0.2 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9eab91cd-2eb3-46a2-863e-29734c08369d")
 		)
 		(fp_line
 			(start 0.9 0.7)
@@ -23668,8 +23658,18 @@
 			(layer "F.Fab")
 			(uuid "4f9c6156-1586-456a-9f7b-e96aaea6ea25")
 		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e130ce8b-f5b1-4262-8ba1-f9e65a5801ef")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 165)
 			(layer "F.Fab")
 			(uuid "16496f22-a4fc-44c2-944d-a29eb155eb3b")
 			(effects
@@ -23680,7 +23680,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -23690,7 +23690,7 @@
 			(uuid "a4a64eed-fbd3-4f7e-af1d-74a240cd3d28")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 345)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -23714,11 +23714,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "e66c4edb-d006-45ee-811f-b6871c5fe5e6")
-		(at 241.95 183.2)
+		(at 198.439 81.683 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D4H1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "f48bfb55-f933-493a-bb25-2430f5c7ba5b")
 			(effects
@@ -23729,7 +23729,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 15)
 			(layer "F.Fab")
 			(uuid "cff84c05-c0f9-428e-9372-c7ce264852fd")
 			(effects
@@ -23740,7 +23740,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23753,7 +23753,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23766,7 +23766,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23779,7 +23779,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23792,7 +23792,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23980,7 +23980,7 @@
 			(uuid "5c8c7ce2-756a-478c-8815-21abefaf075d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.Fab")
 			(uuid "dba6c422-7f21-479a-80b2-00e62320716a")
 			(effects
@@ -23991,7 +23991,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -24001,7 +24001,7 @@
 			(uuid "486e8c74-0b5a-4972-9ba6-0a663182617b")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -24970,11 +24970,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "eed4e887-bbff-42d1-bd34-b524e08ceaad")
-		(at 205.95 183.2)
+		(at 164.183 92.933 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D4F1"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "6b012a66-e0ce-4b99-972b-c56b05158ebf")
 			(effects
@@ -24985,7 +24985,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 0.1 1.9 0)
+			(at 0.1 1.9 15)
 			(layer "F.Fab")
 			(uuid "a3eca812-e40c-4137-b6e3-c9bce0ba5636")
 			(effects
@@ -24996,7 +24996,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25009,7 +25009,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25022,7 +25022,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25035,7 +25035,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25048,7 +25048,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 15)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25236,7 +25236,7 @@
 			(uuid "47c75b26-7675-47d3-9741-54decb1811f4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 0)
+			(at 0 -1.85 15)
 			(layer "F.Fab")
 			(uuid "fb5198a4-2e13-4cfb-9fc9-6aec98f295e1")
 			(effects
@@ -25247,7 +25247,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -25257,7 +25257,7 @@
 			(uuid "0df82720-7f9d-4580-9622-2ed3755b0995")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 15)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
