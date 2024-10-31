@@ -4209,7 +4209,7 @@
 	(footprint "switch:SW_PG1350"
 		(layer "F.Cu")
 		(uuid "304aa6fd-38fd-4c77-b57b-728ec5133ee1")
-		(at 97.087 63.61 -15)
+		(at 97.086 63.609 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
 		(property "Reference" "SW3C1"
@@ -6104,7 +6104,7 @@
 	(footprint "switch:SW_PG1350"
 		(layer "F.Cu")
 		(uuid "46b7a22e-366a-4f44-9aa0-e1fea925ce15")
-		(at 117.214 92.824 -15)
+		(at 117.214 92.814 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
 		(property "Reference" "SW4D1"
@@ -13095,7 +13095,7 @@
 	(footprint "switch:SW_PG1350"
 		(layer "F.Cu")
 		(uuid "821434cb-7408-4414-b271-28804bc2406b")
-		(at 113.438 72.32 -15)
+		(at 113.438 72.132 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
 		(property "Reference" "SW3D1"
@@ -14387,7 +14387,7 @@
 	(footprint "switch:SW_PG1350"
 		(layer "F.Cu")
 		(uuid "8921e342-a3e2-480a-8415-e812be2e1818")
-		(at 117.828 55.711 -15)
+		(at 117.838 55.711 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
 		(property "Reference" "SW2D1"
@@ -20576,7 +20576,7 @@
 	(footprint "switch:SW_PG1350"
 		(layer "F.Cu")
 		(uuid "bddb8f7c-5be3-47cc-953e-608fc1d4ad05")
-		(at 202.914 63.61 15)
+		(at 202.914 63.609 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
 		(property "Reference" "SW3H1"
