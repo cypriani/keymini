@@ -4778,7 +4778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e71f71-395e-4e2f-935b-a8cd3626248c")
-		(property "Reference" "D3A1"
+		(property "Reference" "D3A"
 			(at 27.94 45.72 0)
 			(effects
 				(font
@@ -4848,7 +4848,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D3A1")
+					(reference "D3A")
 					(unit 1)
 				)
 			)
@@ -4864,7 +4864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06d40a97-d36a-4e06-bd5e-aeeebc308bae")
-		(property "Reference" "SW1D1"
+		(property "Reference" "SW1D"
 			(at 148.59 16.51 0)
 			(effects
 				(font
@@ -4916,7 +4916,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW1D1")
+					(reference "SW1D")
 					(unit 1)
 				)
 			)
@@ -4932,7 +4932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07d28cf0-704e-485a-9507-843eb9c558ea")
-		(property "Reference" "SW3H1"
+		(property "Reference" "SW3H"
 			(at 111.76 106.68 0)
 			(effects
 				(font
@@ -4984,7 +4984,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW3H1")
+					(reference "SW3H")
 					(unit 1)
 				)
 			)
@@ -5000,7 +5000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "089bf4a8-91d2-4d7e-964d-3f585564ce95")
-		(property "Reference" "D1I1"
+		(property "Reference" "D1I"
 			(at 139.7 80.01 0)
 			(effects
 				(font
@@ -5070,7 +5070,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D1I1")
+					(reference "D1I")
 					(unit 1)
 				)
 			)
@@ -5086,7 +5086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c273de7-614e-4a9a-9f0d-fc18e8151911")
-		(property "Reference" "D3H1"
+		(property "Reference" "D3H"
 			(at 102.87 107.95 0)
 			(effects
 				(font
@@ -5156,7 +5156,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D3H1")
+					(reference "D3H")
 					(unit 1)
 				)
 			)
@@ -5172,7 +5172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d19f508-24d8-4735-bdb0-758f3ea99cb0")
-		(property "Reference" "SW3C1"
+		(property "Reference" "SW3C"
 			(at 111.76 44.45 0)
 			(effects
 				(font
@@ -5224,7 +5224,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW3C1")
+					(reference "SW3C")
 					(unit 1)
 				)
 			)
@@ -5423,7 +5423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24cd375a-8c88-4749-974f-ff208042e61d")
-		(property "Reference" "D1F1"
+		(property "Reference" "D1F"
 			(at 27.94 80.01 0)
 			(effects
 				(font
@@ -5493,7 +5493,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D1F1")
+					(reference "D1F")
 					(unit 1)
 				)
 			)
@@ -5575,7 +5575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "279e3a7e-b830-43c6-85ab-c5691bfc24c6")
-		(property "Reference" "SW2F1"
+		(property "Reference" "SW2F"
 			(at 36.83 92.71 0)
 			(effects
 				(font
@@ -5627,7 +5627,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW2F1")
+					(reference "SW2F")
 					(unit 1)
 				)
 			)
@@ -5643,7 +5643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "287c5ac2-bc04-4a23-9eb5-b5041a796a93")
-		(property "Reference" "D3G1"
+		(property "Reference" "D3G"
 			(at 66.04 107.95 0)
 			(effects
 				(font
@@ -5713,7 +5713,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D3G1")
+					(reference "D3G")
 					(unit 1)
 				)
 			)
@@ -5729,7 +5729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c2dcb98-11c6-45dd-a080-0f476be9d7fc")
-		(property "Reference" "SW3F1"
+		(property "Reference" "SW3F"
 			(at 36.83 106.68 0)
 			(effects
 				(font
@@ -5781,7 +5781,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW3F1")
+					(reference "SW3F")
 					(unit 1)
 				)
 			)
@@ -5863,7 +5863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fa7f47a-77ee-48c5-89bf-aba1dc728e54")
-		(property "Reference" "D1B1"
+		(property "Reference" "D1B"
 			(at 66.04 17.78 0)
 			(effects
 				(font
@@ -5933,7 +5933,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D1B1")
+					(reference "D1B")
 					(unit 1)
 				)
 			)
@@ -5949,7 +5949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31173319-268b-4d0e-972e-5782f1cecb8d")
-		(property "Reference" "D1H1"
+		(property "Reference" "D1H"
 			(at 102.87 80.01 0)
 			(effects
 				(font
@@ -6019,7 +6019,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D1H1")
+					(reference "D1H")
 					(unit 1)
 				)
 			)
@@ -6035,7 +6035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35b3f12a-96a0-4c68-b1f1-43fc631ec6f0")
-		(property "Reference" "D2D1"
+		(property "Reference" "D2D"
 			(at 139.7 31.75 0)
 			(effects
 				(font
@@ -6105,7 +6105,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D2D1")
+					(reference "D2D")
 					(unit 1)
 				)
 			)
@@ -6121,7 +6121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "370a80b4-8f01-4bc7-8b71-95ea9674b26e")
-		(property "Reference" "D2G1"
+		(property "Reference" "D2G"
 			(at 66.04 93.98 0)
 			(effects
 				(font
@@ -6191,7 +6191,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D2G1")
+					(reference "D2G")
 					(unit 1)
 				)
 			)
@@ -6207,7 +6207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3be28ff0-e78b-43fa-97c1-95f4addc9377")
-		(property "Reference" "D4D1"
+		(property "Reference" "D4D"
 			(at 139.7 59.69 0)
 			(effects
 				(font
@@ -6277,7 +6277,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D4D1")
+					(reference "D4D")
 					(unit 1)
 				)
 			)
@@ -6293,7 +6293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4094a2a0-04e5-4264-901e-b7115be779a3")
-		(property "Reference" "SW3J1"
+		(property "Reference" "SW3J"
 			(at 186.69 106.68 0)
 			(effects
 				(font
@@ -6345,7 +6345,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW3J1")
+					(reference "SW3J")
 					(unit 1)
 				)
 			)
@@ -6361,7 +6361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b87b9c-e0da-4105-8222-0c4ca520d13d")
-		(property "Reference" "D1G1"
+		(property "Reference" "D1G"
 			(at 66.04 80.01 0)
 			(effects
 				(font
@@ -6431,7 +6431,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D1G1")
+					(reference "D1G")
 					(unit 1)
 				)
 			)
@@ -6447,7 +6447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42cfd2f4-ac48-4a60-a923-4452fbba9e74")
-		(property "Reference" "SW2I1"
+		(property "Reference" "SW2I"
 			(at 148.59 92.71 0)
 			(effects
 				(font
@@ -6499,7 +6499,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW2I1")
+					(reference "SW2I")
 					(unit 1)
 				)
 			)
@@ -6515,7 +6515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "437ffdac-4395-46e8-b447-15d24f3c3c0b")
-		(property "Reference" "SW3B1"
+		(property "Reference" "SW3B"
 			(at 74.93 44.45 0)
 			(effects
 				(font
@@ -6567,7 +6567,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW3B1")
+					(reference "SW3B")
 					(unit 1)
 				)
 			)
@@ -6583,7 +6583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4460bed4-7974-4359-a98c-7b730a640a90")
-		(property "Reference" "D4G1"
+		(property "Reference" "D4G"
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -6653,7 +6653,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D4G1")
+					(reference "D4G")
 					(unit 1)
 				)
 			)
@@ -6669,7 +6669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ae91e85-48b7-4c65-9e4e-f179eaaaf423")
-		(property "Reference" "D4C1"
+		(property "Reference" "D4C"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -6739,7 +6739,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D4C1")
+					(reference "D4C")
 					(unit 1)
 				)
 			)
@@ -6755,7 +6755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d080127-aaf4-4364-8204-62693e09d281")
-		(property "Reference" "D2F1"
+		(property "Reference" "D2F"
 			(at 27.94 93.98 0)
 			(effects
 				(font
@@ -6825,7 +6825,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D2F1")
+					(reference "D2F")
 					(unit 1)
 				)
 			)
@@ -6841,7 +6841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ed0cf97-7c7e-4e2d-a033-0b740e869c05")
-		(property "Reference" "D2I1"
+		(property "Reference" "D2I"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -6911,7 +6911,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D2I1")
+					(reference "D2I")
 					(unit 1)
 				)
 			)
@@ -6927,7 +6927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53fb2953-a66b-40d3-b164-2badf0b7e1f5")
-		(property "Reference" "D3C1"
+		(property "Reference" "D3C"
 			(at 102.87 45.72 0)
 			(effects
 				(font
@@ -6997,7 +6997,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D3C1")
+					(reference "D3C")
 					(unit 1)
 				)
 			)
@@ -7079,7 +7079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d864d7d-bc16-4194-86d7-f2f36ff6e459")
-		(property "Reference" "D3J1"
+		(property "Reference" "D3J"
 			(at 177.8 107.95 0)
 			(effects
 				(font
@@ -7149,7 +7149,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D3J1")
+					(reference "D3J")
 					(unit 1)
 				)
 			)
@@ -7165,7 +7165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61175b44-bef2-4dfa-8a72-5d43606deaff")
-		(property "Reference" "D4F1"
+		(property "Reference" "D4F"
 			(at 27.94 121.92 0)
 			(effects
 				(font
@@ -7235,7 +7235,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D4F1")
+					(reference "D4F")
 					(unit 1)
 				)
 			)
@@ -7251,7 +7251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61a8241e-5af3-45df-a03a-284b2d54786f")
-		(property "Reference" "SW1I1"
+		(property "Reference" "SW1I"
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -7303,7 +7303,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW1I1")
+					(reference "SW1I")
 					(unit 1)
 				)
 			)
@@ -7319,7 +7319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "623fc52f-0c41-485f-a2d2-f928aed4c22d")
-		(property "Reference" "D4H1"
+		(property "Reference" "D4H"
 			(at 102.87 121.92 0)
 			(effects
 				(font
@@ -7389,7 +7389,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D4H1")
+					(reference "D4H")
 					(unit 1)
 				)
 			)
@@ -7405,7 +7405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "677c6d3f-36c8-46a8-b1d4-bac74f19f4fc")
-		(property "Reference" "SW4D1"
+		(property "Reference" "SW4D"
 			(at 148.59 58.42 0)
 			(effects
 				(font
@@ -7457,7 +7457,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW4D1")
+					(reference "SW4D")
 					(unit 1)
 				)
 			)
@@ -7473,7 +7473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "699a9df1-69c5-4690-b9b4-bfb3ece9a288")
-		(property "Reference" "SW1J1"
+		(property "Reference" "SW1J"
 			(at 186.69 78.74 0)
 			(effects
 				(font
@@ -7525,7 +7525,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW1J1")
+					(reference "SW1J")
 					(unit 1)
 				)
 			)
@@ -7541,7 +7541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c5078fe-ea2e-4e5d-b550-2aea172a7a43")
-		(property "Reference" "SW1H1"
+		(property "Reference" "SW1H"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -7593,7 +7593,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW1H1")
+					(reference "SW1H")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c73bbfe-487a-4817-89ee-a31458e48f15")
-		(property "Reference" "SW3E1"
+		(property "Reference" "SW3E"
 			(at 185.42 44.45 0)
 			(effects
 				(font
@@ -7661,7 +7661,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW3E1")
+					(reference "SW3E")
 					(unit 1)
 				)
 			)
@@ -7677,7 +7677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3bef2f-a643-4246-84a6-69db8967e107")
-		(property "Reference" "D2C1"
+		(property "Reference" "D2C"
 			(at 102.87 31.75 0)
 			(effects
 				(font
@@ -7747,7 +7747,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D2C1")
+					(reference "D2C")
 					(unit 1)
 				)
 			)
@@ -7831,7 +7831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7677b865-a09e-430c-97f3-2242c9b27681")
-		(property "Reference" "SW1A1"
+		(property "Reference" "SW1A"
 			(at 36.83 16.51 0)
 			(effects
 				(font
@@ -7883,7 +7883,7 @@
 		(instances
 			(project ""
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW1A1")
+					(reference "SW1A")
 					(unit 1)
 				)
 			)
@@ -7899,7 +7899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d804121-9ee0-4433-9874-22f53cc09d92")
-		(property "Reference" "SW2C1"
+		(property "Reference" "SW2C"
 			(at 111.76 30.48 0)
 			(effects
 				(font
@@ -7951,7 +7951,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW2C1")
+					(reference "SW2C")
 					(unit 1)
 				)
 			)
@@ -7967,7 +7967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d80a99c-7722-4fda-a09d-6455d1b7ffdf")
-		(property "Reference" "D4E1"
+		(property "Reference" "D4E"
 			(at 176.53 59.69 0)
 			(effects
 				(font
@@ -8037,7 +8037,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D4E1")
+					(reference "D4E")
 					(unit 1)
 				)
 			)
@@ -8053,7 +8053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e5df69c-64ef-4f74-a270-04579ea249a3")
-		(property "Reference" "D3B1"
+		(property "Reference" "D3B"
 			(at 66.04 45.72 0)
 			(effects
 				(font
@@ -8123,7 +8123,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D3B1")
+					(reference "D3B")
 					(unit 1)
 				)
 			)
@@ -8139,7 +8139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ea0353a-90dc-41d2-949e-ac7a21523bf4")
-		(property "Reference" "SW4C1"
+		(property "Reference" "SW4C"
 			(at 111.76 58.42 0)
 			(effects
 				(font
@@ -8191,7 +8191,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW4C1")
+					(reference "SW4C")
 					(unit 1)
 				)
 			)
@@ -8207,7 +8207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80d0153a-4368-4725-883f-3ae4c7f364c3")
-		(property "Reference" "D2E1"
+		(property "Reference" "D2E"
 			(at 176.53 31.75 0)
 			(effects
 				(font
@@ -8277,7 +8277,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D2E1")
+					(reference "D2E")
 					(unit 1)
 				)
 			)
@@ -8434,7 +8434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8499371b-5ff7-4003-8473-b53786066cd4")
-		(property "Reference" "SW2G1"
+		(property "Reference" "SW2G"
 			(at 74.93 92.71 0)
 			(effects
 				(font
@@ -8486,7 +8486,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW2G1")
+					(reference "SW2G")
 					(unit 1)
 				)
 			)
@@ -8502,7 +8502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87911df9-a2b4-4b37-9771-665d28504b90")
-		(property "Reference" "D3I1"
+		(property "Reference" "D3I"
 			(at 139.7 107.95 0)
 			(effects
 				(font
@@ -8572,7 +8572,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D3I1")
+					(reference "D3I")
 					(unit 1)
 				)
 			)
@@ -8588,7 +8588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88410152-7708-4472-8620-97d2eed00f68")
-		(property "Reference" "D2H1"
+		(property "Reference" "D2H"
 			(at 102.87 93.98 0)
 			(effects
 				(font
@@ -8658,7 +8658,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D2H1")
+					(reference "D2H")
 					(unit 1)
 				)
 			)
@@ -8674,7 +8674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "899ab137-936f-4ffc-b3bc-02bafea1b4c6")
-		(property "Reference" "D2J1"
+		(property "Reference" "D2J"
 			(at 177.8 93.98 0)
 			(effects
 				(font
@@ -8744,7 +8744,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D2J1")
+					(reference "D2J")
 					(unit 1)
 				)
 			)
@@ -8760,7 +8760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ce8992b-3d92-44cd-a32b-dc180e12be07")
-		(property "Reference" "SW4H1"
+		(property "Reference" "SW4H"
 			(at 111.76 120.65 0)
 			(effects
 				(font
@@ -8812,7 +8812,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW4H1")
+					(reference "SW4H")
 					(unit 1)
 				)
 			)
@@ -8828,7 +8828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d1ac912-d459-45f5-aeac-e84f041e5de8")
-		(property "Reference" "D2A1"
+		(property "Reference" "D2A"
 			(at 27.94 31.75 0)
 			(effects
 				(font
@@ -8898,7 +8898,7 @@
 		(instances
 			(project ""
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D2A1")
+					(reference "D2A")
 					(unit 1)
 				)
 			)
@@ -9193,7 +9193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d5bcd5-fb2e-47f7-a4b5-d71a92376816")
-		(property "Reference" "D3F1"
+		(property "Reference" "D3F"
 			(at 27.94 107.95 0)
 			(effects
 				(font
@@ -9263,7 +9263,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D3F1")
+					(reference "D3F")
 					(unit 1)
 				)
 			)
@@ -9279,7 +9279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a91be9f-588a-44c8-a521-ab0f0274e90a")
-		(property "Reference" "SW2E1"
+		(property "Reference" "SW2E"
 			(at 185.42 30.48 0)
 			(effects
 				(font
@@ -9331,7 +9331,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW2E1")
+					(reference "SW2E")
 					(unit 1)
 				)
 			)
@@ -9481,7 +9481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0393417-faa6-4f6c-9a0a-bc1b708c90df")
-		(property "Reference" "SW1C1"
+		(property "Reference" "SW1C"
 			(at 111.76 16.51 0)
 			(effects
 				(font
@@ -9533,7 +9533,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW1C1")
+					(reference "SW1C")
 					(unit 1)
 				)
 			)
@@ -9619,7 +9619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a367d781-d1d4-4aa4-80df-28ba9fd41b56")
-		(property "Reference" "D1D1"
+		(property "Reference" "D1D"
 			(at 139.7 17.78 0)
 			(effects
 				(font
@@ -9689,7 +9689,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D1D1")
+					(reference "D1D")
 					(unit 1)
 				)
 			)
@@ -9775,7 +9775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aadc2d89-d30b-4b5c-8997-0ede9a197953")
-		(property "Reference" "D1C1"
+		(property "Reference" "D1C"
 			(at 102.87 17.78 0)
 			(effects
 				(font
@@ -9845,7 +9845,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D1C1")
+					(reference "D1C")
 					(unit 1)
 				)
 			)
@@ -9861,7 +9861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac08f5ee-a264-4f34-a76e-abee270876ed")
-		(property "Reference" "D3D1"
+		(property "Reference" "D3D"
 			(at 139.7 45.72 0)
 			(effects
 				(font
@@ -9931,7 +9931,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D3D1")
+					(reference "D3D")
 					(unit 1)
 				)
 			)
@@ -9947,7 +9947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad39bf32-0049-4868-9b72-4d019222176d")
-		(property "Reference" "D3E1"
+		(property "Reference" "D3E"
 			(at 176.53 45.72 0)
 			(effects
 				(font
@@ -10017,7 +10017,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D3E1")
+					(reference "D3E")
 					(unit 1)
 				)
 			)
@@ -10033,7 +10033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adadac62-5dc3-49a5-95fa-4e2a4f12c3cf")
-		(property "Reference" "D1A1"
+		(property "Reference" "D1A"
 			(at 27.94 17.78 0)
 			(effects
 				(font
@@ -10103,7 +10103,7 @@
 		(instances
 			(project ""
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D1A1")
+					(reference "D1A")
 					(unit 1)
 				)
 			)
@@ -10257,7 +10257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba81fb72-7934-4c9e-b7cf-4fd62a7f83f6")
-		(property "Reference" "SW4E1"
+		(property "Reference" "SW4E"
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -10309,7 +10309,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW4E1")
+					(reference "SW4E")
 					(unit 1)
 				)
 			)
@@ -10325,7 +10325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfa1521a-5e30-493f-82fb-92425c03ca3b")
-		(property "Reference" "SW2J1"
+		(property "Reference" "SW2J"
 			(at 186.69 92.71 0)
 			(effects
 				(font
@@ -10377,7 +10377,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW2J1")
+					(reference "SW2J")
 					(unit 1)
 				)
 			)
@@ -10393,7 +10393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1592ec9-13f6-4172-a46b-bb776eb20ff4")
-		(property "Reference" "D1J1"
+		(property "Reference" "D1J"
 			(at 177.8 80.01 0)
 			(effects
 				(font
@@ -10463,7 +10463,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D1J1")
+					(reference "D1J")
 					(unit 1)
 				)
 			)
@@ -10545,7 +10545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c60d642e-e36f-46c3-81ac-7d8151d41460")
-		(property "Reference" "SW1E1"
+		(property "Reference" "SW1E"
 			(at 185.42 16.51 0)
 			(effects
 				(font
@@ -10597,7 +10597,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW1E1")
+					(reference "SW1E")
 					(unit 1)
 				)
 			)
@@ -10613,7 +10613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf26ac88-bdc3-45ee-9017-fa39f1562c62")
-		(property "Reference" "SW3I1"
+		(property "Reference" "SW3I"
 			(at 148.59 106.68 0)
 			(effects
 				(font
@@ -10665,7 +10665,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW3I1")
+					(reference "SW3I")
 					(unit 1)
 				)
 			)
@@ -10880,7 +10880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da0d5cff-840e-4d7a-9119-7cd9a9f32ce1")
-		(property "Reference" "SW2A1"
+		(property "Reference" "SW2A"
 			(at 36.83 30.48 0)
 			(effects
 				(font
@@ -10932,7 +10932,7 @@
 		(instances
 			(project ""
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW2A1")
+					(reference "SW2A")
 					(unit 1)
 				)
 			)
@@ -10948,7 +10948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e15d5d9f-24b8-43e8-a6eb-29e997b7cb59")
-		(property "Reference" "SW4G1"
+		(property "Reference" "SW4G"
 			(at 74.93 120.65 0)
 			(effects
 				(font
@@ -11000,7 +11000,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW4G1")
+					(reference "SW4G")
 					(unit 1)
 				)
 			)
@@ -11016,7 +11016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e16b8300-e307-4dc0-bdbf-ec021fe11446")
-		(property "Reference" "SW1G1"
+		(property "Reference" "SW1G"
 			(at 74.93 78.74 0)
 			(effects
 				(font
@@ -11068,7 +11068,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW1G1")
+					(reference "SW1G")
 					(unit 1)
 				)
 			)
@@ -11150,7 +11150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1f232b2-4b35-47d9-af4c-34121cbc77d7")
-		(property "Reference" "SW4F1"
+		(property "Reference" "SW4F"
 			(at 36.83 120.65 0)
 			(effects
 				(font
@@ -11202,7 +11202,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW4F1")
+					(reference "SW4F")
 					(unit 1)
 				)
 			)
@@ -11218,7 +11218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e21260c0-f81e-41b4-b83b-6ecc74e99650")
-		(property "Reference" "SW2H1"
+		(property "Reference" "SW2H"
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -11270,7 +11270,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW2H1")
+					(reference "SW2H")
 					(unit 1)
 				)
 			)
@@ -11356,7 +11356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e77cfa8d-c506-41ae-9d7a-918067ed4684")
-		(property "Reference" "SW3D1"
+		(property "Reference" "SW3D"
 			(at 148.59 44.45 0)
 			(effects
 				(font
@@ -11408,7 +11408,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW3D1")
+					(reference "SW3D")
 					(unit 1)
 				)
 			)
@@ -11424,7 +11424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8b77379-53e5-45f4-a257-a9e2321ad186")
-		(property "Reference" "SW1B1"
+		(property "Reference" "SW1B"
 			(at 74.93 16.51 0)
 			(effects
 				(font
@@ -11476,7 +11476,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW1B1")
+					(reference "SW1B")
 					(unit 1)
 				)
 			)
@@ -11492,7 +11492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed85ed42-50d1-4f11-a4ec-f788c8acde1a")
-		(property "Reference" "SW3G1"
+		(property "Reference" "SW3G"
 			(at 74.93 106.68 0)
 			(effects
 				(font
@@ -11544,7 +11544,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW3G1")
+					(reference "SW3G")
 					(unit 1)
 				)
 			)
@@ -11560,7 +11560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef633be8-9d71-4aef-963f-a812d8882ce7")
-		(property "Reference" "D1E1"
+		(property "Reference" "D1E"
 			(at 176.53 17.78 0)
 			(effects
 				(font
@@ -11630,7 +11630,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D1E1")
+					(reference "D1E")
 					(unit 1)
 				)
 			)
@@ -11646,7 +11646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f58df513-1238-478a-8503-3acd22e3ebf6")
-		(property "Reference" "SW2D1"
+		(property "Reference" "SW2D"
 			(at 148.59 30.48 0)
 			(effects
 				(font
@@ -11698,7 +11698,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW2D1")
+					(reference "SW2D")
 					(unit 1)
 				)
 			)
@@ -11780,7 +11780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f892eafe-4027-4b7c-b18e-abf8a3cd1333")
-		(property "Reference" "D2B1"
+		(property "Reference" "D2B"
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -11850,7 +11850,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "D2B1")
+					(reference "D2B")
 					(unit 1)
 				)
 			)
@@ -11866,7 +11866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fae40658-ba3c-48ab-96c5-9a60f5bbd340")
-		(property "Reference" "SW1F1"
+		(property "Reference" "SW1F"
 			(at 36.83 78.74 0)
 			(effects
 				(font
@@ -11918,7 +11918,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW1F1")
+					(reference "SW1F")
 					(unit 1)
 				)
 			)
@@ -11934,7 +11934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff96fa9f-707d-4a6a-8c8e-3dbe5dbbe3bc")
-		(property "Reference" "SW2B1"
+		(property "Reference" "SW2B"
 			(at 74.93 30.48 0)
 			(effects
 				(font
@@ -11986,7 +11986,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW2B1")
+					(reference "SW2B")
 					(unit 1)
 				)
 			)
@@ -12002,7 +12002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffd49799-83ff-45c4-8471-6d80d829ab76")
-		(property "Reference" "SW3A1"
+		(property "Reference" "SW3A"
 			(at 36.83 44.45 0)
 			(effects
 				(font
@@ -12054,7 +12054,7 @@
 		(instances
 			(project "keymini"
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "SW3A1")
+					(reference "SW3A")
 					(unit 1)
 				)
 			)

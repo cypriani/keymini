@@ -84,46 +84,46 @@
 	(net 1 "+5V")
 	(net 2 "GND")
 	(net 3 "+3.3V")
-	(net 4 "Net-(D1A1-A)")
+	(net 4 "Net-(D1A-A)")
 	(net 5 "ROW1")
-	(net 6 "Net-(D1B1-A)")
-	(net 7 "Net-(D1C1-A)")
-	(net 8 "Net-(D1D1-A)")
-	(net 9 "Net-(D1E1-A)")
-	(net 10 "Net-(D1F1-A)")
-	(net 11 "Net-(D1G1-A)")
-	(net 12 "Net-(D1H1-A)")
-	(net 13 "Net-(D1I1-A)")
-	(net 14 "Net-(D1J1-A)")
+	(net 6 "Net-(D1B-A)")
+	(net 7 "Net-(D1C-A)")
+	(net 8 "Net-(D1D-A)")
+	(net 9 "Net-(D1E-A)")
+	(net 10 "Net-(D1F-A)")
+	(net 11 "Net-(D1G-A)")
+	(net 12 "Net-(D1H-A)")
+	(net 13 "Net-(D1I-A)")
+	(net 14 "Net-(D1J-A)")
 	(net 15 "ROW2")
-	(net 16 "Net-(D2A1-A)")
-	(net 17 "Net-(D2B1-A)")
-	(net 18 "Net-(D2C1-A)")
-	(net 19 "Net-(D2D1-A)")
-	(net 20 "Net-(D2E1-A)")
-	(net 21 "Net-(D2F1-A)")
-	(net 22 "Net-(D2G1-A)")
-	(net 23 "Net-(D2H1-A)")
-	(net 24 "Net-(D2I1-A)")
-	(net 25 "Net-(D2J1-A)")
-	(net 26 "Net-(D3A1-A)")
+	(net 16 "Net-(D2A-A)")
+	(net 17 "Net-(D2B-A)")
+	(net 18 "Net-(D2C-A)")
+	(net 19 "Net-(D2D-A)")
+	(net 20 "Net-(D2E-A)")
+	(net 21 "Net-(D2F-A)")
+	(net 22 "Net-(D2G-A)")
+	(net 23 "Net-(D2H-A)")
+	(net 24 "Net-(D2I-A)")
+	(net 25 "Net-(D2J-A)")
+	(net 26 "Net-(D3A-A)")
 	(net 27 "ROW3")
-	(net 28 "Net-(D3B1-A)")
-	(net 29 "Net-(D3C1-A)")
-	(net 30 "Net-(D3D1-A)")
-	(net 31 "Net-(D3E1-A)")
-	(net 32 "Net-(D3F1-A)")
-	(net 33 "Net-(D3G1-A)")
-	(net 34 "Net-(D3H1-A)")
-	(net 35 "Net-(D3I1-A)")
-	(net 36 "Net-(D3J1-A)")
+	(net 28 "Net-(D3B-A)")
+	(net 29 "Net-(D3C-A)")
+	(net 30 "Net-(D3D-A)")
+	(net 31 "Net-(D3E-A)")
+	(net 32 "Net-(D3F-A)")
+	(net 33 "Net-(D3G-A)")
+	(net 34 "Net-(D3H-A)")
+	(net 35 "Net-(D3I-A)")
+	(net 36 "Net-(D3J-A)")
 	(net 37 "ROW4")
-	(net 38 "Net-(D4C1-A)")
-	(net 39 "Net-(D4D1-A)")
-	(net 40 "Net-(D4E1-A)")
-	(net 41 "Net-(D4F1-A)")
-	(net 42 "Net-(D4G1-A)")
-	(net 43 "Net-(D4H1-A)")
+	(net 38 "Net-(D4C-A)")
+	(net 39 "Net-(D4D-A)")
+	(net 40 "Net-(D4E-A)")
+	(net 41 "Net-(D4F-A)")
+	(net 42 "Net-(D4G-A)")
+	(net 43 "Net-(D4H-A)")
 	(net 44 "D-")
 	(net 45 "Net-(J1-CC1)")
 	(net 46 "unconnected-(J1-SBU2-PadB8)")
@@ -396,7 +396,7 @@
 		(at 233.028 36.905 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW1J1"
+		(property "Reference" "SW1J"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "7fa9d8c6-6311-4919-b9dd-4e10ad5d15b6")
@@ -696,7 +696,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "Net-(D1J1-A)")
+			(net 14 "Net-(D1J-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "28eab6bd-3cc1-4cf1-896a-453ba2b7b6b6")
@@ -719,7 +719,7 @@
 		(at 63.788 48.786 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2A1"
+		(property "Reference" "D2A"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "16fc8105-77f3-453a-ba73-f6bd6e241f6f")
@@ -1007,7 +1007,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 16 "Net-(D2A1-A)")
+			(net 16 "Net-(D2A-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e058d5cf-8d20-45fc-a3ad-d9640e65b210")
@@ -1030,7 +1030,7 @@
 		(at 118.43 88.274 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D4D1"
+		(property "Reference" "D4D"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "3dd6e7c1-1dde-4f31-a2b2-9f0f292ee00d")
@@ -1318,7 +1318,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 39 "Net-(D4D1-A)")
+			(net 39 "Net-(D4D-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "358e1445-fae1-4dd3-b6b7-151f6f891827")
@@ -1341,7 +1341,7 @@
 		(at 165.4 97.473 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW4F1"
+		(property "Reference" "SW4F"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "b59fcc51-14e2-4648-9764-e80b2931b1cc")
@@ -1641,7 +1641,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 41 "Net-(D4F1-A)")
+			(net 41 "Net-(D4F-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "415ab94a-1f08-4189-b2d5-a1a8123b905e")
@@ -1664,7 +1664,7 @@
 		(at 216.936 46.394 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW2I1"
+		(property "Reference" "SW2I"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "b0d8063b-a63d-448e-900b-27194a86d4dd")
@@ -1964,7 +1964,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "Net-(D2I1-A)")
+			(net 24 "Net-(D2I-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "9d98edb7-55c8-4011-b3c0-4c1d0f1bd1cc")
@@ -1987,7 +1987,7 @@
 		(at 221.336 62.814 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW3I1"
+		(property "Reference" "SW3I"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "0c2a4b6a-d9c7-418c-8c2c-5dc39251cd92")
@@ -2287,7 +2287,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "Net-(D3I1-A)")
+			(net 35 "Net-(D3I-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "f57ed712-8d31-4757-9311-cb457d1e0bea")
@@ -2310,7 +2310,7 @@
 		(at 177.762 39.29 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW1G1"
+		(property "Reference" "SW1G"
 			(at -0.000001 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "155a26ac-5d46-4076-afbd-7b239b91362f")
@@ -2610,7 +2610,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Net-(D1G1-A)")
+			(net 11 "Net-(D1G-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "b0a88b32-4e00-40e6-b85a-c908979a3c64")
@@ -2633,7 +2633,7 @@
 		(at 197.297 42.649 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2H1"
+		(property "Reference" "D2H"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "51ea59ba-13e4-4dfe-b499-3f396aa6d25e")
@@ -2921,7 +2921,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 23 "Net-(D2H1-A)")
+			(net 23 "Net-(D2H-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "db11860b-623f-4cd8-aeb4-32a6c56baa90")
@@ -2944,7 +2944,7 @@
 		(at 134.6 97.473 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW4E1"
+		(property "Reference" "SW4E"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "7fb2817a-520a-4336-ad7b-cf610bfcd0b0")
@@ -3244,7 +3244,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 40 "Net-(D4E1-A)")
+			(net 40 "Net-(D4E-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "33d95a1a-c464-4fbc-9d34-06b8be0649c6")
@@ -3267,7 +3267,7 @@
 		(at 201.697 59.07 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3H1"
+		(property "Reference" "D3H"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "1f780ef0-1250-47e2-83d0-ccdec6c5505c")
@@ -3555,7 +3555,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 34 "Net-(D3H1-A)")
+			(net 34 "Net-(D3H-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "1641ed3c-ce21-45a3-a3c2-7f4e0ed2e5e9")
@@ -3578,7 +3578,7 @@
 		(at 135.817 92.933 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D4E1"
+		(property "Reference" "D4E"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "8c6fa890-d692-4b5e-9148-80c1392fc7a5")
@@ -3866,7 +3866,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 40 "Net-(D4E1-A)")
+			(net 40 "Net-(D4E-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "437ef382-2f9f-440d-8133-23c6eef00522")
@@ -3889,7 +3889,7 @@
 		(at 186.562 72.132 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW3G1"
+		(property "Reference" "SW3G"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "b07b4e1c-f531-469f-b772-d510edf32ab8")
@@ -4189,7 +4189,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 33 "Net-(D3G1-A)")
+			(net 33 "Net-(D3G-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "e620d141-b0f6-4d79-acba-6d459d6e7f8f")
@@ -4212,7 +4212,7 @@
 		(at 97.086 63.609 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW3C1"
+		(property "Reference" "SW3C"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "1d0f65d6-41c0-44ad-9e3e-e7cc6235ede7")
@@ -4512,7 +4512,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 29 "Net-(D3C1-A)")
+			(net 29 "Net-(D3C-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "5042dddb-5db9-4906-b638-6d0d2b14e764")
@@ -4536,7 +4536,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "54094573-f4b8-4ebd-9bc4-904d6e76922f")
 			(effects
@@ -4547,7 +4547,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "28bda425-c75a-473d-aaf7-76ccbe0da8a6")
 			(effects
@@ -4702,7 +4702,7 @@
 			(uuid "1e26fc00-cd15-4a6e-a0f5-f045426ff482")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "2b7de8ca-7139-4bf1-855a-33cfc60fde91")
 			(effects
@@ -4749,7 +4749,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "e45fea31-05d4-40b4-921b-d451c19c02c5")
 			(effects
@@ -4760,7 +4760,7 @@
 			)
 		)
 		(property "Value" "1µF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "d444a64d-4007-4dc5-bc59-4a55bdf9f460")
 			(effects
@@ -4915,7 +4915,7 @@
 			(uuid "bef29577-89e7-4ffa-b68b-2b98fe6be2aa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ff1f8f89-ec1e-4f1e-9416-293f3d071540")
 			(effects
@@ -4961,7 +4961,7 @@
 		(at 181.57 88.274 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D4G1"
+		(property "Reference" "D4G"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "184bd64f-33e3-470e-a82c-20c53da0e2c3")
@@ -5249,7 +5249,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 42 "Net-(D4G1-A)")
+			(net 42 "Net-(D4G-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7d3d3db6-03fa-45fd-9b83-09757b813338")
@@ -5273,7 +5273,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "d74d80c7-b709-436b-8b9c-f178c01c4e22")
 			(effects
@@ -5284,7 +5284,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "f3dbbf31-5866-4cf0-95f0-1f272e5c1dee")
 			(effects
@@ -5439,7 +5439,7 @@
 			(uuid "25f153e3-96d2-4ceb-b3b6-cf208ea60b66")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c1143ff8-849f-4b27-a88c-55b3515bb06f")
 			(effects
@@ -5485,7 +5485,7 @@
 		(at 180.946 51.171 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2G1"
+		(property "Reference" "D2G"
 			(at -0.000001 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "92c98154-a1d8-45b1-94bd-1a0583c63062")
@@ -5668,7 +5668,7 @@
 			(uuid "31e30bfe-2c64-4b3f-96b9-a8286371abee")
 		)
 		(fp_line
-			(start -0.299999 -0.350001)
+			(start -0.299999 -0.350002)
 			(end -0.3 0.349999)
 			(stroke
 				(width 0.1)
@@ -5773,7 +5773,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 22 "Net-(D2G1-A)")
+			(net 22 "Net-(D2G-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3469e669-68ec-4b65-8e93-82fad19636c2")
@@ -5796,7 +5796,7 @@
 		(at 211.319 25.433 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D1I1"
+		(property "Reference" "D1I"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "f02763d9-f1ca-414f-869e-5a2087a629e6")
@@ -6084,7 +6084,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 13 "Net-(D1I1-A)")
+			(net 13 "Net-(D1I-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2df7d200-221f-4425-a644-cf3884fa15ab")
@@ -6107,7 +6107,7 @@
 		(at 117.214 92.814 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW4D1"
+		(property "Reference" "SW4D"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "1d7f7565-9511-4dc9-9051-03c6cdfa7616")
@@ -6407,7 +6407,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "Net-(D4D1-A)")
+			(net 39 "Net-(D4D-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "b9d0bed1-f119-4ae2-960b-d801a8e493d2")
@@ -6430,7 +6430,7 @@
 		(at 100.345 86.223 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW4C1"
+		(property "Reference" "SW4C"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "a4e3e110-b56a-4f09-9c81-7a9caccfdbf8")
@@ -6730,7 +6730,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "Net-(D4C1-A)")
+			(net 38 "Net-(D4C-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "440e4afd-d72f-49ef-bd3d-cf4ead9fb385")
@@ -6753,7 +6753,7 @@
 		(at 84.281 41.854 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2B1"
+		(property "Reference" "D2B"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "dc921700-c1fa-4b0e-b901-81ad617e645b")
@@ -7041,7 +7041,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 17 "Net-(D2B1-A)")
+			(net 17 "Net-(D2B-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a2daf604-6d75-4f71-a839-9f6943257fe3")
@@ -8234,7 +8234,7 @@
 		(at 165.293 62.302 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW2F1"
+		(property "Reference" "SW2F"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "259d0d2b-5ef9-4e1b-91b4-acd6d4780c52")
@@ -8534,7 +8534,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 21 "Net-(D2F1-A)")
+			(net 21 "Net-(D2F-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "5aee6b19-a518-45e2-bee3-e51ebd1f2b7d")
@@ -8557,7 +8557,7 @@
 		(at 182.786 92.814 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW4G1"
+		(property "Reference" "SW4G"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "71ed4516-6e87-4969-a537-0cfd398b386d")
@@ -8857,7 +8857,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 42 "Net-(D4G1-A)")
+			(net 42 "Net-(D4G-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "ceba28da-0deb-440f-a287-eef609c9928e")
@@ -8880,7 +8880,7 @@
 		(at 164.077 57.762 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2F1"
+		(property "Reference" "D2F"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "f1a23d9e-a902-4acc-a438-156b0bb8d9d0")
@@ -9168,7 +9168,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 21 "Net-(D2F1-A)")
+			(net 21 "Net-(D2F-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "abbd3edd-e810-4437-87c4-e42810749009")
@@ -9191,7 +9191,7 @@
 		(at 182.162 55.711 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW2G1"
+		(property "Reference" "SW2G"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "02d171d1-c047-4958-867d-8057d4f73333")
@@ -9491,7 +9491,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "Net-(D2G1-A)")
+			(net 22 "Net-(D2G-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "32efd326-6cf6-42ef-a4b0-58bf2c57a244")
@@ -9514,7 +9514,7 @@
 		(at 98.303 59.07 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3C1"
+		(property "Reference" "D3C"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "9a0e1ac9-c02d-4500-a41a-ce8282cd02be")
@@ -9802,7 +9802,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 29 "Net-(D3C1-A)")
+			(net 29 "Net-(D3C-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "494ef5ac-cb95-4cdb-bb5f-239bf8f3cc9f")
@@ -9825,7 +9825,7 @@
 		(at 79.881 58.275 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3B1"
+		(property "Reference" "D3B"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "5a8cccbe-eca1-40aa-94c0-765820a83d1a")
@@ -10113,7 +10113,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 28 "Net-(D3B1-A)")
+			(net 28 "Net-(D3B-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6fdef468-d94f-4156-8ea2-f40f891ade47")
@@ -10136,7 +10136,7 @@
 		(at 68.188 32.365 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D1A1"
+		(property "Reference" "D1A"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "89fcdc61-1d92-4f67-bacb-4eea5740c294")
@@ -10424,7 +10424,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 4 "Net-(D1A1-A)")
+			(net 4 "Net-(D1A-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9cca6b30-1a33-450a-9c58-2b3ef96f9d66")
@@ -10447,7 +10447,7 @@
 		(at 194.114 30.768 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW1H1"
+		(property "Reference" "SW1H"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "2034019f-9b10-4354-b23a-35f44d41bf38")
@@ -10747,7 +10747,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "Net-(D1H1-A)")
+			(net 12 "Net-(D1H-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "3ffc6931-531f-4eb8-9b45-6054e9bd5aba")
@@ -10770,7 +10770,7 @@
 		(at 58.172 69.747 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW3A1"
+		(property "Reference" "SW3A"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "08b28342-9488-4204-9ebb-c8c57278aa12")
@@ -11070,7 +11070,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "Net-(D3A1-A)")
+			(net 26 "Net-(D3A-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "9acc4cca-ef31-421e-ac76-c9987af97a01")
@@ -11093,7 +11093,7 @@
 		(at 169.693 78.722 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW3F1"
+		(property "Reference" "SW3F"
 			(at -0.000001 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "fd63709e-e099-4b78-91e2-106bc368fc23")
@@ -11393,7 +11393,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "Net-(D3F1-A)")
+			(net 32 "Net-(D3F-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "a13891e7-3c17-48aa-90d2-6f2fe59b4d8e")
@@ -11416,7 +11416,7 @@
 		(at 101.561 81.683 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D4C1"
+		(property "Reference" "D4C"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "ced8aaf4-ec1e-4dc8-8856-b607524717ad")
@@ -11704,7 +11704,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 38 "Net-(D4C1-A)")
+			(net 38 "Net-(D4C-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a3edcf94-a7a4-4065-9c1d-30a86055c586")
@@ -11727,7 +11727,7 @@
 		(at 134.707 62.302 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW2E1"
+		(property "Reference" "SW2E"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "afbc2d7c-70bf-4f61-b4e8-db127ac43bb3")
@@ -12027,7 +12027,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 20 "Net-(D2E1-A)")
+			(net 20 "Net-(D2E-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "59d1d62f-18a0-478b-9155-53448db69193")
@@ -12476,7 +12476,7 @@
 		(at 88.681 25.433 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D1B1"
+		(property "Reference" "D1B"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "78840b45-d036-476f-a0ee-c07b131b3513")
@@ -12764,7 +12764,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 6 "Net-(D1B1-A)")
+			(net 6 "Net-(D1B-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e88807d5-4939-4678-b178-08529dd70f36")
@@ -12787,7 +12787,7 @@
 		(at 107.103 26.228 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D1C1"
+		(property "Reference" "D1C"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "ada79e0a-ad82-45e2-9c67-0f8486bb3342")
@@ -13075,7 +13075,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 7 "Net-(D1C1-A)")
+			(net 7 "Net-(D1C-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9e5bfc59-7223-4b4d-a5a2-d7fc5ee06bab")
@@ -13098,7 +13098,7 @@
 		(at 113.438 72.132 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW3D1"
+		(property "Reference" "SW3D"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "4f27e031-c2b2-40ba-b1e6-28bd33604e77")
@@ -13398,7 +13398,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "Net-(D3D1-A)")
+			(net 30 "Net-(D3D-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "753ea30b-d0cf-41ea-9f17-c9c816c1dc4f")
@@ -13421,7 +13421,7 @@
 		(at 241.828 69.747 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW3J1"
+		(property "Reference" "SW3J"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "01c773d4-456f-4a36-9417-70ee32e5b107")
@@ -13721,7 +13721,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "Net-(D3J1-A)")
+			(net 36 "Net-(D3J-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "4c2140e7-c97d-4eca-9d8e-51d2d0a6c183")
@@ -13744,7 +13744,7 @@
 		(at 78.665 62.814 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW3B1"
+		(property "Reference" "SW3B"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "e67882ff-bd02-45e6-98e9-07520a7034b4")
@@ -14044,7 +14044,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "Net-(D3B1-A)")
+			(net 28 "Net-(D3B-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "fa3f8a24-6f41-433d-a348-b3823279ee15")
@@ -14067,7 +14067,7 @@
 		(at 160.893 45.881 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW1F1"
+		(property "Reference" "SW1F"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "b32631b1-56d0-428b-a1dc-0e2dc108caa4")
@@ -14367,7 +14367,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(D1F1-A)")
+			(net 10 "Net-(D1F-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "fd06aee6-b478-409f-8577-1dcfaa37203d")
@@ -14390,7 +14390,7 @@
 		(at 117.838 55.711 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW2D1"
+		(property "Reference" "SW2D"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "ce08f482-035a-4689-8e9d-f4ecc9aab233")
@@ -14690,7 +14690,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "Net-(D2D1-A)")
+			(net 19 "Net-(D2D-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "4e12944d-6d42-41be-bfa7-0e940c28e16a")
@@ -14926,7 +14926,7 @@
 		(at 199.655 86.223 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW4H1"
+		(property "Reference" "SW4H"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "6c811073-617e-42ad-a39e-aa5075dda092")
@@ -15226,7 +15226,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "Net-(D4H1-A)")
+			(net 43 "Net-(D4H-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "9071a6db-fcb9-46a4-980e-3d4ef75a8c40")
@@ -15249,7 +15249,7 @@
 		(at 231.812 32.365 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D1J1"
+		(property "Reference" "D1J"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "082d6c77-b420-47d7-9200-3c07c4e8b0dc")
@@ -15537,7 +15537,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 14 "Net-(D1J1-A)")
+			(net 14 "Net-(D1J-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "24f7ba75-ebec-428b-88aa-46c2c5382527")
@@ -15560,7 +15560,7 @@
 		(at 131.523 74.183 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3E1"
+		(property "Reference" "D3E"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "5fe89ccb-fc8a-4149-95df-963962d8a426")
@@ -15848,7 +15848,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 31 "Net-(D3E1-A)")
+			(net 31 "Net-(D3E-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "32e11813-631c-42ab-90ef-f91775e8e390")
@@ -15871,7 +15871,7 @@
 		(at 114.654 67.592 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3D1"
+		(property "Reference" "D3D"
 			(at 0.000001 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "f34a5705-c5b5-409e-97e6-9b74cc3da985")
@@ -16075,7 +16075,7 @@
 		)
 		(fp_line
 			(start -0.3 -0.349999)
-			(end -0.299999 0.350001)
+			(end -0.299999 0.350002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -16159,7 +16159,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 30 "Net-(D3D1-A)")
+			(net 30 "Net-(D3D-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a95664a6-5711-492f-85a2-98d7f81bb31c")
@@ -16182,7 +16182,7 @@
 		(at 135.923 57.762 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2E1"
+		(property "Reference" "D2E"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "074b4208-9de0-4232-a547-214a4ffe1105")
@@ -16470,7 +16470,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(D2E1-A)")
+			(net 20 "Net-(D2E-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9c5ad74a-3502-406c-89b7-365ee22bc837")
@@ -16493,7 +16493,7 @@
 		(at 140.323 41.341 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D1E1"
+		(property "Reference" "D1E"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "60002118-8d26-45dd-b2a7-2cf2b9647924")
@@ -16781,7 +16781,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 9 "Net-(D1E1-A)")
+			(net 9 "Net-(D1E-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "04154157-3c47-4c4b-9cbf-9a3015d8c621")
@@ -16804,7 +16804,7 @@
 		(at 215.719 41.854 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2I1"
+		(property "Reference" "D2I"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "561bfa5c-84ca-4fa7-b9b7-da9ce5fdc7da")
@@ -17092,7 +17092,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 24 "Net-(D2I1-A)")
+			(net 24 "Net-(D2I-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "66f8229b-7513-44ec-a541-bd96fea53c56")
@@ -17115,7 +17115,7 @@
 		(at 159.677 41.341 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D1F1"
+		(property "Reference" "D1F"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "53b80e09-b8d6-4423-80fb-721aa12fffd0")
@@ -17403,7 +17403,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 10 "Net-(D1F1-A)")
+			(net 10 "Net-(D1F-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9ca6582d-c660-406d-875e-7ec0eb6e19f6")
@@ -17426,7 +17426,7 @@
 		(at 83.064 46.394 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW2B1"
+		(property "Reference" "SW2B"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "910a82bd-6175-4056-ba27-f2b20fc06f77")
@@ -17726,7 +17726,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "Net-(D2B1-A)")
+			(net 17 "Net-(D2B-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "f9e1c2d9-1e0e-4e19-8e9a-90d8c10e961b")
@@ -17749,7 +17749,7 @@
 		(at 192.897 26.228 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D1H1"
+		(property "Reference" "D1H"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "62042b23-fc33-4f0f-8f94-789c08387e32")
@@ -18037,7 +18037,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 12 "Net-(D1H1-A)")
+			(net 12 "Net-(D1H-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "15358c8a-ef7b-4a6e-b026-41452c5ebf1d")
@@ -18060,7 +18060,7 @@
 		(at 139.107 45.881 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW1E1"
+		(property "Reference" "SW1E"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "51ebefd9-4964-444d-9c8a-518774557e46")
@@ -18360,7 +18360,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "Net-(D1E1-A)")
+			(net 9 "Net-(D1E-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "974977e9-5bc8-4c44-83b4-f8b79593a9a6")
@@ -18383,7 +18383,7 @@
 		(at 220.119 58.275 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3I1"
+		(property "Reference" "D3I"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "b3b00a7a-27e3-4771-82b0-64970594ae82")
@@ -18671,7 +18671,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 35 "Net-(D3I1-A)")
+			(net 35 "Net-(D3I-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "90106fed-f14b-4f91-810b-584c5c6c3eec")
@@ -18694,7 +18694,7 @@
 		(at 240.612 65.207 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3J1"
+		(property "Reference" "D3J"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "5210cc17-db81-45f3-9144-db3e2f6b6ce5")
@@ -18982,7 +18982,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 36 "Net-(D3J1-A)")
+			(net 36 "Net-(D3J-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "5299e0b1-1871-4d9c-8831-27786c3cac7f")
@@ -19006,7 +19006,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "10f07c9c-34ad-4329-81e1-8cf579da75e0")
 			(effects
@@ -19017,7 +19017,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "67601f6f-7ded-413a-bdbb-3f6ffc05c1f9")
 			(effects
@@ -19172,7 +19172,7 @@
 			(uuid "67e33580-d940-4a98-bbef-8f0a1fe418e8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "840a47fe-b335-4c3e-8d1d-f444574f3491")
 			(effects
@@ -19218,7 +19218,7 @@
 		(at 102.703 42.649 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2C1"
+		(property "Reference" "D2C"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "0c2a2f7b-fc83-470d-8a88-3f04526acea1")
@@ -19506,7 +19506,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 18 "Net-(D2C1-A)")
+			(net 18 "Net-(D2C-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "50efd9ed-8940-44c1-9fff-9d5235a0da45")
@@ -19956,7 +19956,7 @@
 		(at 168.477 74.183 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3F1"
+		(property "Reference" "D3F"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "32536efd-f619-4e79-a801-9f446f4aaa22")
@@ -20244,7 +20244,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 32 "Net-(D3F1-A)")
+			(net 32 "Net-(D3F-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "38f68345-aa39-4f10-a7c7-10652caee340")
@@ -20267,7 +20267,7 @@
 		(at 202.914 63.609 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW3H1"
+		(property "Reference" "SW3H"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "692f5841-9f19-4e7c-be5d-a78afebc24ac")
@@ -20567,7 +20567,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 34 "Net-(D3H1-A)")
+			(net 34 "Net-(D3H-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "54506198-f73e-4689-8530-680a2e8f0339")
@@ -20590,7 +20590,7 @@
 		(at 237.428 53.326 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW2J1"
+		(property "Reference" "SW2J"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "49c8c178-be5d-45e0-af1d-ebd22ffaa7da")
@@ -20890,7 +20890,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "Net-(D2J1-A)")
+			(net 25 "Net-(D2J-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "ad405e23-1b25-4c67-a2d0-6242607e6daf")
@@ -20913,7 +20913,7 @@
 		(at 119.054 51.171 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2D1"
+		(property "Reference" "D2D"
 			(at 0.000001 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "935b0fdc-387a-4417-9710-e1eadd26023a")
@@ -21117,7 +21117,7 @@
 		)
 		(fp_line
 			(start -0.3 -0.349999)
-			(end -0.299999 0.350001)
+			(end -0.299999 0.350002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -21201,7 +21201,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 19 "Net-(D2D1-A)")
+			(net 19 "Net-(D2D-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "75c23f0e-e9e0-46e9-bb93-ce245f4605e4")
@@ -21224,7 +21224,7 @@
 		(at 185.346 67.592 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3G1"
+		(property "Reference" "D3G"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "e64e4447-e541-4161-9f39-45da8699a067")
@@ -21512,7 +21512,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 33 "Net-(D3G1-A)")
+			(net 33 "Net-(D3G-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "1d0d0fe5-8079-4490-ab4d-4a0ea5dc1622")
@@ -21535,7 +21535,7 @@
 		(at 87.464 29.973 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW1B1"
+		(property "Reference" "SW1B"
 			(at 0.000001 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "17357db4-5c49-42b4-9e27-51ee1a8162fa")
@@ -21835,7 +21835,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 6 "Net-(D1B1-A)")
+			(net 6 "Net-(D1B-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "ab1b42e3-216d-49a5-b864-ad05ced02a5c")
@@ -21858,7 +21858,7 @@
 		(at 122.238 39.29 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW1D1"
+		(property "Reference" "SW1D"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "6ee5bcb6-c4d1-4b12-b2cd-14b8b87e6e71")
@@ -22158,7 +22158,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "Net-(D1D1-A)")
+			(net 8 "Net-(D1D-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "ececfdd4-ec69-4551-9b42-c264df84e046")
@@ -22448,7 +22448,7 @@
 		(at 62.572 53.326 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW2A1"
+		(property "Reference" "SW2A"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "0eb84b63-54c1-45d3-9e5e-6364015f7ad7")
@@ -22748,7 +22748,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "Net-(D2A1-A)")
+			(net 16 "Net-(D2A-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "2f38bd6a-951d-4a31-a1b0-9c5a5a54af97")
@@ -22771,7 +22771,7 @@
 		(at 66.972 36.905 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW1A1"
+		(property "Reference" "SW1A"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "21e9c466-449c-455e-983d-66694c2d32c7")
@@ -23071,7 +23071,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "Net-(D1A1-A)")
+			(net 4 "Net-(D1A-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "7b390841-96ef-4d24-a0d4-c78b701ee22b")
@@ -23094,7 +23094,7 @@
 		(at 59.388 65.207 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3A1"
+		(property "Reference" "D3A"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "8de50815-1db4-4be3-8907-c6aebbfe36cd")
@@ -23382,7 +23382,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 26 "Net-(D3A1-A)")
+			(net 26 "Net-(D3A-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "93da584d-f55a-4f8a-be4e-4a75161a8e29")
@@ -23405,7 +23405,7 @@
 		(at 198.439 81.683 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D4H1"
+		(property "Reference" "D4H"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "f48bfb55-f933-493a-bb25-2430f5c7ba5b")
@@ -23693,7 +23693,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 43 "Net-(D4H1-A)")
+			(net 43 "Net-(D4H-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4dbeb034-0b83-4a21-a9de-52f4baae2b3a")
@@ -23716,7 +23716,7 @@
 		(at 130.307 78.722 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW3E1"
+		(property "Reference" "SW3E"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "eae7008d-0295-4f6c-a5f4-162e18165595")
@@ -24016,7 +24016,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "Net-(D3E1-A)")
+			(net 31 "Net-(D3E-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "597b9b71-4696-4261-bc2f-a07a723b0653")
@@ -24039,7 +24039,7 @@
 		(at 236.212 48.786 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2J1"
+		(property "Reference" "D2J"
 			(at -0.000001 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "841042fa-f3d8-4d39-8ab9-2d97c4cb370f")
@@ -24222,7 +24222,7 @@
 			(uuid "fc8fc7b1-9a52-405d-ac32-4f7f59a7ff61")
 		)
 		(fp_line
-			(start -0.299999 -0.350001)
+			(start -0.299999 -0.350002)
 			(end -0.3 0.349999)
 			(stroke
 				(width 0.1)
@@ -24327,7 +24327,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 25 "Net-(D2J1-A)")
+			(net 25 "Net-(D2J-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a20d093a-8ca0-4e4b-89ad-1ba8c1252e60")
@@ -24350,7 +24350,7 @@
 		(at 123.454 34.751 -15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D1D1"
+		(property "Reference" "D1D"
 			(at 0 -1.85 165)
 			(layer "F.SilkS")
 			(uuid "e293b6b3-67de-4663-85a9-2c614c40ed0c")
@@ -24638,7 +24638,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 8 "Net-(D1D1-A)")
+			(net 8 "Net-(D1D-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7f5ff3bc-c502-48c2-b808-b5a434fe76e6")
@@ -24661,7 +24661,7 @@
 		(at 164.183 92.933 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D4F1"
+		(property "Reference" "D4F"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "6b012a66-e0ce-4b99-972b-c56b05158ebf")
@@ -24949,7 +24949,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 41 "Net-(D4F1-A)")
+			(net 41 "Net-(D4F-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ee484354-3506-4350-b06a-ef41c58f3e2b")
@@ -24972,7 +24972,7 @@
 		(at 101.486 47.189 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW2C1"
+		(property "Reference" "SW2C"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "a7b6e732-64a3-4911-b22a-4761c040bdad")
@@ -25272,7 +25272,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "Net-(D2C1-A)")
+			(net 18 "Net-(D2C-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "173c303f-9c59-476a-8668-c151afd76ec7")
@@ -25295,7 +25295,7 @@
 		(at 105.886 30.768 -15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW1C1"
+		(property "Reference" "SW1C"
 			(at 0 -8.255 165)
 			(layer "F.SilkS")
 			(uuid "27a405bd-19cf-4679-b228-ccd4badccd07")
@@ -25595,7 +25595,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 7 "Net-(D1C1-A)")
+			(net 7 "Net-(D1C-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "0b6fcf50-c9cf-4f11-af69-2fd15d9f4c48")
@@ -25618,7 +25618,7 @@
 		(at 198.514 47.189 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW2H1"
+		(property "Reference" "SW2H"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "fb0ea698-730c-4d2e-979d-9a5141a6063d")
@@ -25918,7 +25918,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "Net-(D2H1-A)")
+			(net 23 "Net-(D2H-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "ef5b9c5d-e4e2-4185-9186-e6843a93efc4")
@@ -25941,7 +25941,7 @@
 		(at 176.546 34.751 15)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D1G1"
+		(property "Reference" "D1G"
 			(at 0 -1.85 15)
 			(layer "F.SilkS")
 			(uuid "9a26c67e-06bb-46d8-b081-34ff0a28ba47")
@@ -26229,7 +26229,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 11 "Net-(D1G1-A)")
+			(net 11 "Net-(D1G-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "82dbe6b4-3412-45d7-bad4-0504fd7f593a")
@@ -26252,7 +26252,7 @@
 		(at 212.536 29.973 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
-		(property "Reference" "SW1I1"
+		(property "Reference" "SW1I"
 			(at 0 -8.255 15)
 			(layer "F.SilkS")
 			(uuid "35d89543-c32d-41a3-bc8f-10587edecf7c")
@@ -26552,7 +26552,7 @@
 			(drill 1.27)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "Net-(D1I1-A)")
+			(net 13 "Net-(D1I-A)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "c6ea2b4f-0587-46c8-a919-b737b854a7ae")
