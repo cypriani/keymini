@@ -4,7 +4,7 @@ use <utils.scad>
 $fs=0.5;
 $fa=1;
 
-pcb_depth=2.2+1;
+pcb_depth=5.2-1.6;
 electronic_pocket_depth=5;
 
 nb_cols=5;
@@ -130,18 +130,21 @@ module plate() {
         difference() {
             linear_extrude(pcb_depth, convexity=4) difference() {
                 outline();
-                translate([0, top-7.5/2]) square([9+0.4, 7.5+0.4], center=true);
                 key_placement() square([14, 14], center=true);
             }
-            key_placement() linear_extrude(pcb_depth-1.2) square([15, 15], center=true);
-            translate([0,0,-1])
-            linear_extrude(electronic_pocket_depth+1) {
+            key_placement() translate([0,0,-1]) linear_extrude(pcb_depth+1-1.2)
+                square([15, 15], center=true);
+            translate([0,0,-1]) linear_extrude(electronic_pocket_depth+1) {
                 rounded(0.5) intersection() {
                     s=nb_rows*17;
                     rotate([0, 0, -hand_angle]) translate([0,-s]) square([s, s]);
                     mirror([1,0]) rotate([0, 0, -hand_angle]) translate([0,-s]) square([s, s]);
                 }
             }
+            translate([0,top+1,0]) rotate([90,0,0]) linear_extrude(7.5+1+0.2)
+                rounded_square([9+0.4, 3.2*2+0.4], r=1.5, center=true);
+            translate([0,top-1.5,0]) rotate([90,0,0]) linear_extrude(7.5)
+                square([9+2, 2], center=true);
         }
     }
 }
