@@ -88,7 +88,7 @@ module pcb() {
         }
        // USB-C connector
         color([0.8,0.8,0.8]) translate([0,top,3.2/2]) rotate([90,0,0]) linear_extrude(7.5)
-            rounded_square([9, 3.2], r=1, center=true);
+            rounded_square([9, 3.2], r=1.5, center=true);
         // MCU
         translate([0,-41]) {
             color([0.1,0.1,0.1]) linear_extrude(1.6) rounded_square([7,7], r=0.75, center=true);
