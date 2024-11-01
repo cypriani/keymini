@@ -5,7 +5,7 @@ $fs=0.5;
 $fa=1;
 
 pcb_depth=2.2+1;
-plate_with_interior=true;
+electronic_pocket_depth=5;
 
 nb_cols=5;
 nb_rows=3;
@@ -46,27 +46,26 @@ module key_placement() {
      }
 }
 
-module outline(with_interior=false) {
+module outline() {
     for (side=[-1,1]) {
         hull() one_side_key_placement(side)
             square([inter_switch_x, inter_switch_y], center=true);
-        extreme_thumb_key_placement(side)
-            square([inter_switch_x, inter_switch_y], center=true);
     }
-    translate([0, top/2]) square([6*inter_switch_x, top], center=true);
-    if (with_interior) {
-        hull() {
-            translate([0, 0.5]) square(center=true);
-            for (side=[-1,1])
-                extreme_thumb_key_placement(side)
-                    square([inter_switch_x, inter_switch_y], center=true);
-        }
+    hull() {
+        translate([0, top/2]) square([6*inter_switch_x, top], center=true);
+        for (side=[-1,1])
+            extreme_thumb_key_placement(side)
+                square([inter_switch_x, inter_switch_y], center=true);
     }
 }
 
 module sod323() {
     color([0.8,0.8,0.8]) linear_extrude(0.15) square([2.7,0.35], center=true);
     color([0.1,0.1,0.1]) linear_extrude(1.1) square([1.8,1.4], center=true);
+}
+
+module smd0805() {
+    linear_extrude(1) square([2,1.25], center=true);
 }
 
 module diode_placement() {
@@ -78,7 +77,7 @@ module pcb() {
         // FR4
         color([0,0.5,0]) {
             difference() {
-                translate([0,0,-1.6]) linear_extrude(1.6) outline(true);
+                translate([0,0,-1.6]) linear_extrude(1.6, convexity=4) outline();
                 key_placement() {
                     cylinder(d=3.429, h=4, center=true);
                     for (i=[-5.5,5.5]) translate([i,0]) cylinder(d=1.7018, h=4, center=true);
@@ -87,12 +86,40 @@ module pcb() {
                 }
             }
         }
-        // USB-C connector
+       // USB-C connector
         color([0.8,0.8,0.8]) translate([0,top,3.2/2]) rotate([90,0,0]) linear_extrude(7.5)
             rounded_square([9, 3.2], r=1, center=true);
         // MCU
-        color([0.1,0.1,0.1]) translate([0,-17*2.5]) linear_extrude(1.6)
-            rounded_square([10,10], r=1, center=true);
+        translate([0,-41]) {
+            color([0.1,0.1,0.1]) linear_extrude(1.6) rounded_square([7,7], r=0.75, center=true);
+            color([0.8,0.8,0.8]) linear_extrude(0.15) for (i=[-2.75:0.5:2.75]) {
+                translate([i,0]) square([0.2,9], center=true);
+                translate([0,i]) square([9,0.2], center=true);
+            }
+        }
+        // LDO
+        translate([0,-28]) {
+            color([0.1,0.1,0.1]) linear_extrude(1) square([2.9,1.3], center=true);
+            color([0.8,0.8,0.8]) linear_extrude(0.15) {
+                translate([0,0.6]) square([0.4,1.2], center=true);
+                translate([0.95,-0.6]) square([0.4,1.2], center=true);
+                translate([-0.95,-0.6]) square([0.4,1.2], center=true);
+            }
+        }
+        // resistors
+        color([0.1,0.1,0.1]) {
+            for (i=[-2,2]) translate([i,-19]) rotate([0,0,90]) smd0805();
+            translate([0,-50]) smd0805();
+        }
+        // capacitors
+        color([0.8,0.7,0.5]) {
+            translate([0,-24]) smd0805();
+            translate([0,-32]) smd0805();
+            for (i=[-6,6]) {
+                translate([i,-35]) smd0805();
+                translate([i,-47]) smd0805();
+            }
+        }
         // diodes
         diode_placement() sod323();
     }
@@ -101,18 +128,29 @@ module pcb() {
 module plate() {
     translate([0,0,-pcb_depth]) {
         difference() {
-            linear_extrude(pcb_depth) difference() {
-                outline(plate_with_interior);
+            linear_extrude(pcb_depth, convexity=4) difference() {
+                outline();
                 translate([0, top-7.5/2]) square([9+0.4, 7.5+0.4], center=true);
                 key_placement() square([14, 14], center=true);
             }
             key_placement() linear_extrude(pcb_depth-1.2) square([15, 15], center=true);
+            translate([0,0,-1])
+            linear_extrude(electronic_pocket_depth+1) {
+                rounded(0.5) intersection() {
+                    s=nb_rows*17;
+                    rotate([0, 0, -hand_angle]) translate([0,-s]) square([s, s]);
+                    mirror([1,0]) rotate([0, 0, -hand_angle]) translate([0,-s]) square([s, s]);
+                }
+            }
         }
     }
 }
 
 module back() {
-    color([0.2,0.2,0.2]) translate([0,0,-pcb_depth-1.6-0.6]) linear_extrude(0.6) outline(true);
+    color([0.2,0.2,0.2]) translate([0,0,-pcb_depth-1.6-0.6]) linear_extrude(0.6) difference() {
+        outline();
+        translate([0,-48]) rounded_square([16,3], center=true, r=1.49);
+    }
 }
 
 color([0.5,0.5,0.5]) plate();
