@@ -27290,7 +27290,7 @@
 		(at 150.1 88 180)
 		(descr "https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf")
 		(tags "SPST button tactile switch")
-		(property "Reference" "BOOT"
+		(property "Reference" "BOOT1"
 			(at 0 2.6 0)
 			(layer "B.SilkS")
 			(uuid "7c61c7d8-4e1e-4fa5-a808-cc037aff272b")
