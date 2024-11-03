@@ -141,8 +141,9 @@ module plate() {
                     mirror([1,0]) rotate([0, 0, -hand_angle]) translate([0,-s]) square([s, s]);
                 }
             }
-            translate([0,top+1,0]) rotate([90,0,0]) linear_extrude(7.5+1+0.2)
-                rounded_square([9+0.4, 3.2*2+0.4], r=1.5, center=true);
+            tolerance=0.2;
+            translate([0,top+1,0]) rotate([90,0,0]) linear_extrude(7.5+1+tolerance)
+                rounded_square([9+2*tolerance, 3.2*2+2*tolerance], r=1.5, center=true);
             translate([0,top-1.5,0]) rotate([90,0,0]) linear_extrude(7.5)
                 square([9+2, 2], center=true);
         }
