@@ -467,7 +467,7 @@
       "idf": "",
       "netlist": "",
       "plot": "../gerbers/v0.1/keymini/",
-      "pos_files": "",
+      "pos_files": "../gerbers/v0.1/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
