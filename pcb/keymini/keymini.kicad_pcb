@@ -1983,7 +1983,7 @@
 	(footprint "switch:SW_PG1350"
 		(layer "F.Cu")
 		(uuid "10ef6b74-4d46-48e7-b292-cb08a9aaffa3")
-		(at 221.336 62.814 15)
+		(at 221.335 62.814 15)
 		(descr "Kailh \"Choc\" PG1350 keyswitch")
 		(tags "kailh,choc")
 		(property "Reference" "SW3I1"
