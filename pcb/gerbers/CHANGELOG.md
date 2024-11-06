@@ -1,7 +1,7 @@
 # Gerber change log
 
-## v0.1(TBD)
+## v0.1(2024-11-04)
 
 Manufactured SMT.
 
-Not finished, not manufactured, not tested.
+Sent to manufacturing, not tested.
