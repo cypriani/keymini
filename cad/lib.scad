@@ -1,10 +1,10 @@
 use <key.scad>
 use <utils.scad>
 
-$fs=0.5;
+$fs=0.1;
 $fa=1;
 
-pcb_depth=5.2-1.6;
+pcb_depth=5-1.6;
 electronic_pocket_depth=5;
 
 nb_cols=5;
@@ -122,30 +122,42 @@ module pcb() {
         }
         // diodes
         diode_placement() sod323();
+        // swo
+        color([0.8,0.8,0.8]) linear_extrude(0.1)
+            for (i=[-1.5:1.5]) translate([2.54*i, -64.5]) square([1,3], center=true);
     }
 }
 
-module plate() {
+module plate(pocket_rounding) {
     translate([0,0,-pcb_depth]) {
         difference() {
             linear_extrude(pcb_depth, convexity=4) difference() {
                 outline();
                 key_placement() square([14, 14], center=true);
             }
+
+            // Extended key holes
             key_placement() translate([0,0,-1]) linear_extrude(pcb_depth+1-1.2)
-                square([15, 15], center=true);
+                square([15, 14], center=true);
+
+            // Center pocket
             translate([0,0,-1]) linear_extrude(electronic_pocket_depth+1) {
-                rounded(0.5) intersection() {
+                rounded(pocket_rounding) intersection() {
                     s=nb_rows*17;
                     rotate([0, 0, -hand_angle]) translate([0,-s]) square([s, s]);
                     mirror([1,0]) rotate([0, 0, -hand_angle]) translate([0,-s]) square([s, s]);
                 }
             }
+
+            // USB-C connector pocket
             tolerance=0.2;
-            translate([0,top+1,0]) rotate([90,0,0]) linear_extrude(7.5+1+tolerance)
-                rounded_square([9+2*tolerance, 3.2*2+2*tolerance], r=1.5, center=true);
-            translate([0,top-1.5,0]) rotate([90,0,0]) linear_extrude(7.5)
-                square([9+2, 2], center=true);
+            translate([0,top,-1]) linear_extrude(1+3.2+2*tolerance)
+                rounded_square([9+2*tolerance, 7.6*2+2*tolerance], r=0.5, center=true);
+            translate([0,top-1.5-7.5/2,-1]) linear_extrude(2)
+                rounded_square([9+2, 7.5], r=1.5, center=true);
+
+            // SWO pocket
+            translate([0, -64.5, -1]) linear_extrude(2) rounded_square([12,5], r=2, center=true);
         }
     }
 }
@@ -157,8 +169,8 @@ module back() {
     }
 }
 
-color([0.5,0.5,0.5]) plate();
+color([0.5,0.5,0.5]) plate(0.5);
 pcb();
 back();
 color([1,1,1,0.8]) key_placement() switch();
-color([1,1,1]) key_placement() keycap();
+color([0.9,0.9,0.9]) key_placement() keycap();
