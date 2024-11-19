@@ -31,4 +31,5 @@ left).
 
 Manufactured SMT.
 
-Sent to manufacturing, not tested.
+Sent to manufacturing at JLCPLB. Fully functionnal. The PCB are
+wrapped wrapped, maybe because of the ground filling only on one side.
