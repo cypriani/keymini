@@ -4,7 +4,7 @@ use <utils.scad>
 $fs=0.1;
 $fa=1;
 
-pcb_depth=5-1.6;
+pcb_depth=5.4-1.6;
 electronic_pocket_depth=5;
 
 nb_cols=5;
@@ -87,8 +87,8 @@ module pcb() {
             }
         }
        // USB-C connector
-        color([0.8,0.8,0.8]) translate([0,top,3.2/2]) rotate([90,0,0]) linear_extrude(7.5)
-            rounded_square([9, 3.2], r=1.5, center=true);
+        color([0.8,0.8,0.8]) translate([0,top,3.2/2]) rotate([90,0,0]) linear_extrude(7.4)
+            rounded_square([9, 3.2], r=1.2, center=true);
         // MCU
         translate([0,-41]) {
             color([0.1,0.1,0.1]) linear_extrude(1.6) rounded_square([7,7], r=0.75, center=true);
@@ -151,8 +151,8 @@ module plate(pocket_rounding) {
 
             // USB-C connector pocket
             tolerance=0.2;
-            translate([0,top,-1]) linear_extrude(1+3.2+2*tolerance)
-                rounded_square([9+2*tolerance, 7.6*2+2*tolerance], r=0.5, center=true);
+            translate([0,top+1,0]) rotate([90,0,0]) linear_extrude(1+7.4+tolerance) 
+                rounded_square([9+2*tolerance, 3.2*2+2*tolerance], r=1.2, center=true);
             translate([0,top-1.5-7.5/2,-1]) linear_extrude(2)
                 rounded_square([9+2, 7.5], r=1.5, center=true);
 
