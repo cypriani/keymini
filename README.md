@@ -6,8 +6,8 @@
 > when there is nothing left to take away. ― Antoine de Saint-Exupéry
 
 Keymini is a minimalist keyboard in a lot of way:
-* Only a keyboard, no LED, no rotary encoder, no screen, no multiple
-  parts… Just USB-C connector and keys.
+* Only a keyboard, no LED, no rotary encoder, no screen, not split, no
+  hotswap… Just USB-C connector and keys.
 * Minimal size, entering in a C5/6 envelope (3 fold A4) or a Nintendo
   Switch Lite case.
 * Minimal number of keys, at 36, as popularized by
