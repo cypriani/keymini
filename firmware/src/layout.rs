@@ -64,8 +64,8 @@ pub static LAYERS: keyberon::layout::Layers<10, 4, 4, ()> = keyberon::layout::la
         [   n       t       t       t      (3)      n       t       t       t       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
         [  F1      F2      F3      F4      F5      F6      F7      F8      F9      F10  ],
-        [ LGui    LAlt    LCtrl  LShift     n       n    RShift   RCtrl   LAlt    RGui  ],
-        [  F11     F12      n       n       n       n       n       n       n       n   ],
+        [ LGui    LAlt    LCtrl  LShift    '['     ']'   RShift   RCtrl   LAlt    RGui  ],
+        [  F11     F12      n      '`'      n       n     '\''    '\\'      -       =   ],
         [   n       t  {Custom(())} t       n       n       t       t       t       n   ],
     } //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
 };
