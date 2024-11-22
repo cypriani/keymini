@@ -43,7 +43,6 @@ const STAB: Action = m(&[LShift, Tab].as_slice());
 
 const COLON: Action = m(&[LShift, N].as_slice());
 const EQUAL: Action = m(&[RAlt, G].as_slice());
-const NBSP: Action = m(&[RAlt, LShift, Space].as_slice());
 
 #[rustfmt::skip]
 pub static LAYERS: keyberon::layout::Layers<10, 4, 4, ()> = keyberon::layout::layout! {
@@ -51,21 +50,21 @@ pub static LAYERS: keyberon::layout::Layers<10, 4, 4, ()> = keyberon::layout::la
         [   Q       W       E       R       T       Y       U       I       O       P   ],
         [ {G_A}   {M_S}   {C_D}   {S_F}     G       H     {S_J}   {C_K}   {M_L}  {G_SC} ],
         [   Z       X       C       V       B       N       M       ,       .       /   ],
-        [   n       n      Tab    Space    (1)     (2)   RShift   RAlt      n       n   ],
+        [   n       n     RAlt    Space    (1)     (2)   RShift   RAlt      n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
         [Pause CapsLock ScrollLock PScreen{STAB}    n    BSpace  Delete  Insert     n   ],
         [ LGui    LAlt   {C_ESC} LShift    Tab      n     Left    Down     Up     Right ],
         [ Undo    {CUT}  {COPY}  {PASTE}    n     Enter   Home   PgDown   PgUp     End  ],
-        [   n       t       t       t       n      (3)      t       t       t       n   ],
+        [   n       n       t       t       n      (3)      t       t       n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
         [   !       @       #       $       %       ^       &       *      '('     ')'  ],
         [ {G_1}   {M_2}   {C_3}   {S_4}     5       6     {S_7}   {C_8}   {M_9}   {G_0} ],
-        [   n    {NBSP}  {COLON}    .    {EQUAL}    N  KpPlus KpMinus KpSlash KpAsterisk],
-        [   n       t       t       t      (3)      n       t       t       t       n   ],
+        [   n       n    {COLON}    .    {EQUAL}    N  KpPlus KpMinus KpSlash KpAsterisk],
+        [   n       n       t       t      (3)      n       t       t       n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
         [  F1      F2      F3      F4      F5      F6      F7      F8      F9      F10  ],
         [ LGui    LAlt    LCtrl  LShift    '['     ']'   RShift   RCtrl   LAlt    RGui  ],
-        [  F11     F12      n      '`'      n       n     '\''    '\\'      -       =   ],
-        [   n       t  {Custom(())} t       n       n       t       t       t       n   ],
+        [  F11     F12 NonUsBslash '`'      n       n     '\''    '\\'      -       =   ],
+        [   n       n  {Custom(())} t       n       n       t       t       n       n   ],
     } //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
 };
