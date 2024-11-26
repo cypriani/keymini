@@ -40,6 +40,7 @@ const M_9: Action = hold_tap!(k(LAlt), Kb9);
 const G_0: Action = hold_tap!(k(RGui), Kb0);
 
 const STAB: Action = m(&[LShift, Tab].as_slice());
+const CBS: Action = m(&[LCtrl, BSpace].as_slice());
 
 const COLON: Action = m(&[LShift, N].as_slice());
 const EQUAL: Action = m(&[RAlt, G].as_slice());
@@ -53,7 +54,7 @@ pub static LAYERS: keyberon::layout::Layers<10, 4, 4, ()> = keyberon::layout::la
         [   n       n     RAlt    Space    (1)     (2)   RShift   RAlt      n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
         [Pause CapsLock ScrollLock PScreen{STAB}    n    BSpace  Delete  Insert     n   ],
-        [ LGui    LAlt   {C_ESC} LShift    Tab      n     Left    Down     Up     Right ],
+        [ LGui    LAlt   {C_ESC} LShift    Tab    {CBS}   Left    Down     Up     Right ],
         [ Undo    {CUT}  {COPY}  {PASTE}    n     Enter   Home   PgDown   PgUp     End  ],
         [   n       n       t       t       n      (3)      t       t       n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
