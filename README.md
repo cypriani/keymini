@@ -19,6 +19,17 @@ Keymini is a minimalist keyboard in a lot of way:
 * Minimalistic style, with no decoration, simple hull countour.
 * Minimalist license (MIT) for an opensource keyboard.
 
+Inspirations:
+* My previous designs, in particular
+  [KeySeeBee](https://github.com/TeXitoi/keyseebee) for the components
+  and the fat plate, and
+  [Keyberon-f4](https://github.com/TeXitoi/keyberon-f4) for
+  experiencing with the key placement and unibody shape.
+* [Ferris](https://github.com/pierrechevalier83/ferris) for the
+  stagger and the diode placement..
+* [3W6](https://github.com/weteor/3W6) for the "too fat plate" design
+  idea, and gluing something directly on the back of the PCB.
+
 # Gallery
 
 ## v0.1, first prototype, gChoc switchs, ChocFox CFX keycaps
