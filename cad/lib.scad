@@ -5,7 +5,7 @@ $fs=0.1;
 $fa=1;
 
 pcb_depth=5.4-1.6;
-electronic_pocket_depth=5;
+electronic_pocket_depth=pcb_depth-1.2;
 
 nb_cols=5;
 nb_rows=3;
@@ -151,8 +151,8 @@ module plate(pocket_rounding) {
 
             // USB-C connector pocket
             tolerance=0.2;
-            translate([0,top+1,0]) rotate([90,0,0]) linear_extrude(1+7.4+tolerance) 
-                rounded_square([9+2*tolerance, 3.2*2+2*tolerance], r=1.2, center=true);
+            translate([0,top,-1]) linear_extrude(2+pcb_depth)
+                square([9+2*tolerance, (7.4+tolerance)*2], center=true);
             translate([0,top-1.5-7.5/2,-1]) linear_extrude(2)
                 rounded_square([9+2, 7.5], r=1.5, center=true);
 
