@@ -5,7 +5,7 @@ $fs=0.1;
 $fa=1;
 
 pcb_depth=5.4-1.6;
-electronic_pocket_depth=pcb_depth-1.2;
+electronic_pocket_depth=pcb_depth-1.4;
 
 nb_cols=5;
 nb_rows=3;
@@ -150,14 +150,14 @@ module plate(pocket_rounding) {
             }
 
             // USB-C connector pocket
-            tolerance=0.2;
+            tolerance=0.1;
             translate([0,top,-1]) linear_extrude(2+pcb_depth)
                 square([9+2*tolerance, (7.4+tolerance)*2], center=true);
             translate([0,top-1.5-7.5/2,-1]) linear_extrude(2)
                 rounded_square([9+2, 7.5], r=1.5, center=true);
 
             // SWO pocket
-            translate([0, -64.5, -1]) linear_extrude(2) rounded_square([12,5], r=2, center=true);
+            //translate([0, -64.5, -1]) linear_extrude(2) rounded_square([12,5], r=2, center=true);
         }
     }
 }
