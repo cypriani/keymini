@@ -27,7 +27,12 @@ left).
 
 # Change log
 
-## v0.1(2024-11-04)
+## v0.2 (TBD)
+
+* add copper pur on the top
+* remove SWD connector
+
+## v0.1 (2024-11-04)
 
 Manufactured SMT.
 

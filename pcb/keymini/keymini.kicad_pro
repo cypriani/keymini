@@ -466,7 +466,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../gerbers/v0.1/keymini/",
+      "plot": "../gerbers/v0.2/keymini/",
       "pos_files": "../gerbers/v0.1/",
       "specctra_dsn": "",
       "step": "",

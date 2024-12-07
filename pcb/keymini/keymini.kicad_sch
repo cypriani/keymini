@@ -9655,7 +9655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b3eec61-f5cf-401f-a166-15397de97e6f")
-		(property "Reference" "BOOT1"
+		(property "Reference" "BOOT0"
 			(at 213.36 30.48 0)
 			(effects
 				(font
@@ -9707,7 +9707,7 @@
 		(instances
 			(project ""
 				(path "/5ef0dab6-ab05-4045-8a8e-70c16fe91fb0"
-					(reference "BOOT1")
+					(reference "BOOT0")
 					(unit 1)
 				)
 			)
