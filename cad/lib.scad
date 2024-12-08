@@ -122,9 +122,6 @@ module pcb() {
         }
         // diodes
         diode_placement() sod323();
-        // swo
-        color([0.8,0.8,0.8]) linear_extrude(0.1)
-            for (i=[-1.5:1.5]) translate([2.54*i, -64.5]) square([1,3], center=true);
     }
 }
 
@@ -155,9 +152,6 @@ module plate(pocket_rounding) {
                 square([9+2*tolerance, (7.4+tolerance)*2], center=true);
             translate([0,top-1.5-7.5/2,-1]) linear_extrude(2)
                 rounded_square([9+2, 7.5], r=1.5, center=true);
-
-            // SWO pocket
-            //translate([0, -64.5, -1]) linear_extrude(2) rounded_square([12,5], r=2, center=true);
         }
     }
 }
