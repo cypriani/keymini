@@ -34,14 +34,14 @@ const GO: u8 = 60;
 unsafe fn maybe_jump_bootloader() {
     let software_reset = (*hal::pac::RCC::ptr()).csr.read().sftrstf().bit_is_set();
     let jump_bootloader = software_reset && GOTO_BOOTLOADER.assume_init() == GO;
-    GOTO_BOOTLOADER.write(0);
+    (*&raw mut GOTO_BOOTLOADER).write(0);
     if jump_bootloader {
         cortex_m::asm::bootload(0x1FFFC800 as _);
     }
 }
 
 pub fn bootloader() -> ! {
-    unsafe { GOTO_BOOTLOADER.write(GO) };
+    unsafe { (*&raw mut GOTO_BOOTLOADER).write(GO) };
     SCB::sys_reset()
 }
 
