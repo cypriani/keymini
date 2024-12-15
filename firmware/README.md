@@ -23,10 +23,13 @@ dfu-util -w -d 0483:df11 -a 0 -s 0x08000000:leave -D firmware.bin
 ```
 
 Then, put the board in DFU mode by:
- * making the bootloader combo as defined in the firmware,
- * or (for the first time, or in case of buggy firmware) by shorting
-   the BOOT1 2 pad under the board (with an aluminium foil for
-   example) and plug USB.
+ * Putting the keyboard in DFU mode as defined in the firmware. By
+   default, it’s the leftmost key on the function layer. So, press
+   simultanely the 2 middle thumb keys, and then tap the leftmost
+   thumb key.
+ * Or (for the first time, or in case of buggy firmware) by shorting
+   the 2 pads under the board (with an aluminium foil for example,
+   pressing hard) and plug USB while doing the connection.
 
 The upload should began as soon as the computer detect the board in
 DFU mode.
