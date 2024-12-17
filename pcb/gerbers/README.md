@@ -37,7 +37,7 @@ left).
 Manufactured SMT.
 
 Sent to manufacturing at JLCPLB. Fully functionnal. The PCB are
-wrapped wrapped, maybe because of the ground filling only on one
-side. This wrapping make an anoying balance of the keyboard when
-pushing on the thumb key. A workaround is to insert a 0.8 mm spacer
-on the back between the silicone sheet and the PCB.
+warped, maybe because of the ground filling only on one side. This
+warping makes an anoying balance of the keyboard when pushing on the
+thumb keys. A workaround is to insert a spacer on the back between the
+silicone sheet and the PCB under the BOOT connector.
