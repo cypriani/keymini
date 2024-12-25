@@ -125,13 +125,19 @@ module pcb() {
     }
 }
 
-module plate(pocket_rounding) {
+module plate() {
+    difference() {
+        outline();
+        key_placement() square([14, 14], center=true);
+        tolerance=0.1;
+        translate([0,top,-1]) square([9+2*tolerance, (7.4+tolerance)*2], center=true);
+    }
+}
+
+module fat_plate(pocket_rounding) {
     translate([0,0,-pcb_depth]) {
         difference() {
-            linear_extrude(pcb_depth, convexity=4) difference() {
-                outline();
-                key_placement() square([14, 14], center=true);
-            }
+            linear_extrude(pcb_depth, convexity=4) plate();
 
             // Extended key holes
             key_placement() translate([0,0,-1]) linear_extrude(pcb_depth+1-1.2)
@@ -147,9 +153,6 @@ module plate(pocket_rounding) {
             }
 
             // USB-C connector pocket
-            tolerance=0.1;
-            translate([0,top,-1]) linear_extrude(2+pcb_depth)
-                square([9+2*tolerance, (7.4+tolerance)*2], center=true);
             translate([0,top-1.5-7.5/2,-1]) linear_extrude(2)
                 rounded_square([9+2, 7.5], r=1.5, center=true);
         }
@@ -163,8 +166,11 @@ module back() {
     }
 }
 
-color([0.5,0.5,0.5]) plate(0.5);
+plate();
+/*
+color([0.5,0.5,0.5]) fat_plate(0.5);
 pcb();
 back();
 color([1,1,1,0.8]) key_placement() switch();
 color([0.9,0.9,0.9]) key_placement() keycap();
+*/
