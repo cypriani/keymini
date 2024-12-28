@@ -1,9 +1,8 @@
-all: plate.svg fat_plate.stl
+all: plate.svg plate.dxf fat_plate.stl fat_plate_visible_components.stl
 
-%.stl: %.printing.scad
+%.stl: %.printing.scad utils.scad lib.scad
 	openscad -o $@ $<
-%.svg: %.2d.scad
+%.svg: %.2d.scad utils.scad lib.scad
 	openscad -o $@ $<
-
-plate.dxf: plate.2d.scad utils.scad lib.scad
-fat_plate.stl: fat_plate.printing.scad utils.scad lib.scad
+%.dxf: %.2d.scad utils.scad lib.scad
+	openscad -o $@ $<

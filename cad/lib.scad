@@ -130,11 +130,12 @@ module plate() {
         outline();
         key_placement() square([14, 14], center=true);
         tolerance=0.1;
-        translate([0,top,-1]) square([9+2*tolerance, (7.4+tolerance)*2], center=true);
+        translate([0,top]) square([9+2*tolerance, (7.4+tolerance)*2], center=true);
+        //translate([(9+2*tolerance)/2, top-((7.4+tolerance)*2)/2]) rotate(45) translate([0, 1.5]) circle(1.5);
     }
 }
 
-module fat_plate(pocket_rounding) {
+module fat_plate(pocket_rounding=0.5, visible_components=false) {
     translate([0,0,-pcb_depth]) {
         difference() {
             linear_extrude(pcb_depth, convexity=4) plate();
@@ -144,7 +145,7 @@ module fat_plate(pocket_rounding) {
                 square([15, 14], center=true);
 
             // Center pocket
-            translate([0,0,-1]) linear_extrude(electronic_pocket_depth+1) {
+            translate([0,0,-1]) linear_extrude(visible_components?pcb_depth+2:electronic_pocket_depth+1) {
                 rounded(pocket_rounding) intersection() {
                     s=nb_rows*17;
                     rotate([0, 0, -hand_angle]) translate([0,-s]) square([s, s]);
@@ -166,11 +167,8 @@ module back() {
     }
 }
 
-plate();
-/*
-color([0.5,0.5,0.5]) fat_plate(0.5);
+color([0.5,0.5,0.5]) fat_plate(visible_components=true);
 pcb();
-back();
+//back();
 color([1,1,1,0.8]) key_placement() switch();
 color([0.9,0.9,0.9]) key_placement() keycap();
-*/

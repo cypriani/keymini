@@ -1,3 +1,3 @@
 use <lib.scad>;
 
-rotate([0,180,0]) fat_plate(0.5);
+rotate([0,180,0]) fat_plate(pocket_rounding=4);
