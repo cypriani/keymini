@@ -3,3 +3,4 @@
 ~*
 /firmware/target
 *.bin
+*.FCStd1
