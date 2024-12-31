@@ -167,7 +167,7 @@ module back() {
     }
 }
 
-color([0.5,0.5,0.5]) fat_plate(visible_components=true);
+color([0.5,0.5,0.5]) fat_plate(pocket_rounding=5, visible_components=true);
 pcb();
 //back();
 color([1,1,1,0.8]) key_placement() switch();
