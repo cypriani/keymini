@@ -51,7 +51,7 @@ pub static LAYERS: keyberon::layout::Layers<10, 4, 4, ()> = keyberon::layout::la
         [   Q       W       E       R       T       Y       U       I       O       P   ],
         [ {G_A}   {M_S}   {C_D}   {S_F}     G       H     {S_J}   {C_K}   {M_L}  {G_SC} ],
         [   Z       X       C       V       B       N       M       ,       .       /   ],
-        [   n       n     RAlt    Space    (1)     (2)   RShift   RAlt      n       n   ],
+        [   n       n Application Space    (1)     (2)   RShift   RAlt      n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
         [Pause CapsLock ScrollLock PScreen{STAB}    n    BSpace  Delete  Insert     n   ],
         [ LGui    LAlt   {C_ESC} LShift    Tab    {CBS}   Left    Down     Up     Right ],
