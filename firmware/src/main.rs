@@ -4,6 +4,7 @@
 // set the panic handler
 use panic_halt as _;
 
+use crate::layout::{LAYERS, NUM_LAYERS};
 use core::convert::Infallible;
 use core::mem::MaybeUninit;
 use cortex_m::peripheral::SCB;
@@ -71,7 +72,7 @@ mod app {
     struct Local {
         matrix: Matrix<Pin<Input<PullUp>>, Pin<Output<PushPull>>, 10, 4>,
         debouncer: Debouncer<[[bool; 10]; 4]>,
-        layout: Layout<10, 4, 4, ()>,
+        layout: Layout<10, 4, NUM_LAYERS, ()>,
         timer: timers::Timer<stm32::TIM3>,
     }
 
@@ -138,7 +139,7 @@ mod app {
                 timer,
                 debouncer: Debouncer::new([[false; 10]; 4], [[false; 10]; 4], 5),
                 matrix: matrix,
-                layout: Layout::new(&crate::layout::LAYERS),
+                layout: Layout::new(&LAYERS),
             },
             init::Monotonics(),
         )

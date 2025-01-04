@@ -45,8 +45,10 @@ const CBS: Action = m(&[LCtrl, BSpace].as_slice());
 const COLON: Action = m(&[LShift, N].as_slice());
 const EQUAL: Action = m(&[RAlt, G].as_slice());
 
+pub const NUM_LAYERS: usize = 4;
+
 #[rustfmt::skip]
-pub static LAYERS: keyberon::layout::Layers<10, 4, 4, ()> = keyberon::layout::layout! {
+pub static LAYERS: keyberon::layout::Layers<10, 4, NUM_LAYERS, ()> = keyberon::layout::layout! {
     { //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
         [   Q       W       E       R       T       Y       U       I       O       P   ],
         [ {G_A}   {M_S}   {C_D}   {S_F}     G       H     {S_J}   {C_K}   {M_L}  {G_SC} ],
