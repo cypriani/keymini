@@ -27,16 +27,19 @@ left).
 
 # Change log
 
-## v0.2 (TBD)
+## v0.2 (2025-01-12)
 
 * add copper pur on the top
 * remove SWD connector
+
+Manufactured at JLCPCB. Fully fonctionnal. Some PCB are lightly
+warped, some are perfectly flat.
 
 ## v0.1 (2024-11-04)
 
 Manufactured SMT.
 
-Sent to manufacturing at JLCPLB. Fully functionnal. The PCB are
+Sent to manufacturing at JLCPCB. Fully functionnal. The PCB are
 warped, maybe because of the ground filling only on one side. This
 warping makes an anoying balance of the keyboard when pushing on the
 thumb keys. A workaround is to insert a spacer on the back between the
