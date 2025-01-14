@@ -30,12 +30,10 @@ Inspirations:
 * [3W6](https://github.com/weteor/3W6) for the "too fat plate" design
   idea, and gluing something directly on the back of the PCB.
 
-# Gallery
+To see more photos, see the [gallery](GALLERY.md).
 
-## v0.1, first prototype, gChoc switchs, ChocFox CFX keycaps
+For instructions on the PCB manufacturing, see the [gerbers
+directory](pcb/gerbers/).
 
-![front](images/keymini-front.jpg)
-
-![back](images/keymini-back.jpg)
-
-![side](images/keymini-side.jpg)
+For information on building and flashing the firmware, see the
+[firmware directory](firmware/).
