@@ -5,6 +5,13 @@
 > Perfection is achieved, not when there is nothing more to add, but
 > when there is nothing left to take away. ― Antoine de Saint-Exupéry
 
+## Presentation
+
+Keymini is a monoblock ergonomic keyboard with 36 keys. It is as low as
+possible (with Kailh Choc v1 switches). As it is flat on the underside,
+it can be used placed on a laptop keyboard, without actuating the
+laptop keyboard keys.
+
 Keymini is a minimalist keyboard in a lot of way:
 * Only a keyboard, no LED, no rotary encoder, no screen, not split, no
   hotswap… Just USB-C connector and keys.
@@ -30,7 +37,12 @@ Inspirations:
 * [3W6](https://github.com/weteor/3W6) for the "too fat plate" design
   idea, and gluing something directly on the back of the PCB.
 
+## Other pages to see
+
 To see more photos, see the [gallery](GALLERY.md).
+
+You can look at the [building guide](BUILDING.md), to see how it is
+constructed, and to make your own!
 
 For instructions on the PCB manufacturing, see the [gerbers
 directory](pcb/gerbers/).
