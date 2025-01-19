@@ -25,6 +25,7 @@
 |Utility knife                                                                           |
 |Black permanent marker (optional)                                                       |
 |approx 6mm hole punch (paper or leather, optional)                                      |
+|School glue stick                                                                       |
 
 ## Assembly (WiP)
 
@@ -85,9 +86,29 @@ have done it).
 
 cardboard jig
 
-cut silicone sheet in keyboard sided pieces
+cut silicone sheet in keyboard sized pieces
 
 make hole
+
+### Leveling the board
+
+The PCB might not be completely flat, or the solder join might be a
+bit high in some places. You don’t want your keyboard to be wobbly
+while typing, so follow these tunning steps.
+
+Put the soldered board on a flat surface (as a desk for
+example). Press at the empty space between the 2 thumb clusters. The
+board might move a tiny bit.
+
+Put a small disk of cardboard (done with the 6mm hole punch or with
+scisors) between the PCB and the desk. It should be between the boot
+contact and the edge of the PCB. Check, by repeating the previous
+step, that the PCB doesn’t move anymore. Add as much as cardboard
+circle as necessary. In case of doubt, better one more than one less.
+
+On this photo, one layer was needed.
+
+![Leveling spacer](images/building-leveling-spacer.jpg)
 
 ### Glue the silicone sheet (WiP)
 
