@@ -10,19 +10,21 @@
 |[Kailh Choc v1 switches](https://lowprokb.ca/collections/switches/products/ambients-silent-choc-switches)  |      36|
 |[Choc spaced compatible keycaps](https://lowprokb.ca/collections/keycaps/products/ldsa-low-profile-blank-keycaps)|36|
 |[USB-C cable](https://www.aliexpress.com/item/1005003058092715.html)                                       |       1|
-|[Solder Wire](https://www.aliexpress.com/item/1005007053733373.html)                                       |      5g|
+|[Solder Wire](https://www.aliexpress.com/item/1005007053733373.html)                                       |      1g|
+|Cardboard (as food packaging for example)                                                                  | 20×10cm|
+|Pure isopropyl alcohol or ethanol (optional)                                                               |     5mL|
 
 ## Tools
 
-|Item                                                                   |
-|-----------------------------------------------------------------------|
-|[Soldering tools](https://www.aliexpress.com/item/4000019437594.html)  |
-|[16mm×3mm hole punch](https://www.aliexpress.com/item/32951941620.html)|
-|Hammer                                                                 |
-|Scissors                                                               |
-|Utility knife                                                          |
-|Black permanent marker (optional)                                      |
-|Isopropyl alcohol (optional)                                           |
+|Item                                                                                    |
+|----------------------------------------------------------------------------------------|
+|[Soldering kit](https://www.aliexpress.com/item/4000019437594.html)                     |
+|[12mm×3mm hole punch](https://www.aliexpress.com/item/1005005796385084.html) (or bigger)|
+|Hammer                                                                                  |
+|Scissors                                                                                |
+|Utility knife                                                                           |
+|Black permanent marker (optional)                                                       |
+|approx 6mm hole punch (paper or leather, optional)                                      |
 
 ## Assembly (WiP)
 

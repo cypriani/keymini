@@ -41,7 +41,7 @@ Inspirations:
 
 To see more photos, see the [gallery](GALLERY.md).
 
-You can look at the [building guide](BUILDING.md), to see how it is
+You can look at the [build guide](BUILDING.md), to see how it is
 constructed, and to make your own!
 
 For instructions on the PCB manufacturing, see the [gerbers
