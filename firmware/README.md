@@ -4,6 +4,7 @@ Install the complete toolchain and utils:
 
 ```shell
 curl https://sh.rustup.rs -sSf | sh
+# restart terminal to update the environment
 rustup target add thumbv6m-none-eabi
 rustup component add llvm-tools-preview
 cargo install cargo-binutils
