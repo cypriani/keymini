@@ -23,3 +23,7 @@
 ![on laptop keyboard](images/keymini-wood-on-laptop-keyboard.jpg)
 
 ![on laptop](images/keymini-wood-on-laptop.jpg)
+
+## v0.2, Noctural switches, MBK keycaps, built by Louis
+
+![Louis’ Keymini](images/keymini-louis.jpg)
