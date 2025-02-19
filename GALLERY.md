@@ -1,6 +1,8 @@
 # Gallery
 
-## v0.1, first prototype, gChoc switchs, ChocFox CFX keycaps
+## v0.1, first prototype, gChoc switchs, ChocFox CFX keycaps, black PLA plate
+
+![presentation](images/keymini-presentation.jpg)
 
 ![front](images/keymini-front.jpg)
 
@@ -8,7 +10,7 @@
 
 ![side](images/keymini-side.jpg)
 
-## v0.1, Twilight switches, DDC keycaps, red plate masking the components
+## v0.1, Twilight switches, DDC keycaps, red PLA plate masking the components
 
 ![masked-components](images/keymini-masked-components.jpg)
 
@@ -27,3 +29,7 @@
 ## v0.2, Noctural switches, MBK keycaps, built by Louis
 
 ![Louis’ Keymini](images/keymini-louis.jpg)
+
+## v0.2, Noctural switches, LDSA keycaps, purple with alumine PLA plate
+
+![purple](images/keymini-purple.jpg)
