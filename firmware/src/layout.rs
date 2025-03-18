@@ -26,6 +26,7 @@ const COPY: Action = m(&[LCtrl, Insert].as_slice());
 const PASTE: Action = m(&[LShift, Insert].as_slice());
 
 const C_ESC: Action = hold_tap!(k(LCtrl), k(Escape));
+const S_TAB: Action = hold_tap!(k(LShift), k(Tab));
 
 const G_E: Action = hold_tap!(k(LGui), k(E));
 const M_S: Action = hold_tap!(k(LAlt), k(S));
@@ -64,8 +65,8 @@ pub static LAYERS: keyberon::layout::Layers<10, 4, NUM_LAYERS, ()> = keyberon::l
         [   Z       X       C       V       B       N       M       ,       .       /   ],
         [   n       n Application Space    (1)     (2)   RShift   RAlt      n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
-        [ Pause CapsLock  LGui   PScreen {STAB}     n    BSpace  Delete  Insert     n   ],
-        [   n     LAlt   {C_ESC} LShift    Tab    {CBS}   Left    Down     Up     Right ], // TODO: put back ScrollLock
+        [ Pause CapsLock  LGui   PScreen    n       n    BSpace  Delete  Insert     n   ],
+        [   n     LAlt   {C_ESC} {S_TAB} {STAB}   {CBS}   Left    Down     Up     Right ], // TODO: put back ScrollLock
         [ Undo    {CUT}  {COPY}  {PASTE}    n     Enter   Home   PgDown   PgUp     End  ],
         [   n       n       t       t       n      (3)      t       t       n       n   ],
     }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
