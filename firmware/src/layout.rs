@@ -15,67 +15,82 @@ macro_rules! hold_tap {
     };
 }
 
-macro_rules! s {
-    ($key:expr) => {
-        m(&[LShift, $key].as_slice())
-    };
-}
+/* Miscellaneous actions */
 
 const CUT: Action = m(&[LShift, Delete].as_slice());
 const COPY: Action = m(&[LCtrl, Insert].as_slice());
 const PASTE: Action = m(&[LShift, Insert].as_slice());
 
-const C_ESC: Action = hold_tap!(k(LCtrl), k(Escape));
-const S_TAB: Action = hold_tap!(k(LShift), k(Tab));
-
-const G_E: Action = hold_tap!(k(LGui), k(E));
-const M_S: Action = hold_tap!(k(LAlt), k(S));
-const C_D: Action = hold_tap!(k(LCtrl), k(D));
-const S_F: Action = hold_tap!(k(LShift), k(F));
-const S_J: Action = hold_tap!(k(RShift), k(J));
-const C_K: Action = hold_tap!(k(RCtrl), k(K));
-const M_L: Action = hold_tap!(k(LAlt), k(L));
-const G_I: Action = hold_tap!(k(RGui), k(I));
-
-const G_SH: Action = hold_tap!(k(LGui), s!(Kb3));
-const M_2: Action = hold_tap!(k(LAlt), k(Kb2));
-const C_3: Action = hold_tap!(k(LCtrl), k(Kb3));
-const S_4: Action = hold_tap!(k(LShift), k(Kb4));
-const S_7: Action = hold_tap!(k(RShift), k(Kb7));
-const C_8: Action = hold_tap!(k(RCtrl), k(Kb8));
-const M_9: Action = hold_tap!(k(LAlt), k(Kb9));
-const G_AS: Action = hold_tap!(k(RGui), s!(Kb8));
-
-const G_F3: Action = hold_tap!(k(LGui), k(F3));
-const G_F8: Action = hold_tap!(k(LGui), k(F8));
-
 const STAB: Action = m(&[LShift, Tab].as_slice());
+const SENTER: Action = m(&[LShift, Enter].as_slice());
 const CBS: Action = m(&[LCtrl, BSpace].as_slice());
 
 const COLON: Action = m(&[LShift, N].as_slice());
 const EQUAL: Action = m(&[RAlt, G].as_slice());
 
+/* Home row mods, left hand */
+
+// main layer
+const H_F: Action = hold_tap!(k(LAlt), k(F));
+const H_D: Action = hold_tap!(k(LCtrl), k(D));
+const H_S: Action = hold_tap!(k(LGui), k(S));
+
+// num layer
+const H_4: Action = hold_tap!(k(LAlt), k(Kb4));
+const H_3: Action = hold_tap!(k(LCtrl), k(Kb3));
+const H_2: Action = hold_tap!(k(LGui), k(Kb2));
+
+// nav layer
+const S_TAB: Action = hold_tap!(k(LAlt), k(Tab));
+const C_ESC: Action = hold_tap!(k(LCtrl), k(Escape));
+// LGui is direct access
+
+/* Home row mods, right hand */
+// NB We use LAlt here because RAlt is AltGr.
+
+// main layer
+const H_J: Action = hold_tap!(k(LAlt), k(J));
+const H_K: Action = hold_tap!(k(RCtrl), k(K));
+const H_L: Action = hold_tap!(k(RGui), k(L));
+
+// num layer
+const H_7: Action = hold_tap!(k(LAlt), k(Kb7));
+const H_8: Action = hold_tap!(k(RCtrl), k(Kb8));
+const H_9: Action = hold_tap!(k(RGui), k(Kb9));
+
+// nav layer
+// No HRM under the right hand (we need to be able to hold the arrows).
+
+/* Layer definitions */
+
 pub const NUM_LAYERS: usize = 4;
 
 #[rustfmt::skip]
 pub static LAYERS: keyberon::layout::Layers<10, 4, NUM_LAYERS, ()> = keyberon::layout::layout! {
+    // Main layer
     { //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
-        [   Q       W     {G_E}     R       T       Y       U     {G_I}     O       P   ],
-        [   A     {M_S}   {C_D}   {S_F}     G       H     {S_J}   {C_K}   {M_L}     ;   ],
+        [   Q       W       E       R       T       Y       U       I       O       P   ],
+        [   A     {H_S}   {H_D}   {H_F}     G       H     {H_J}   {H_K}   {H_L}     ;   ],
         [   Z       X       C       V       B       N       M       ,       .       /   ],
         [   n       n Application Space    (1)     (2)   RShift   RAlt      n       n   ],
-    }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
-        [ Pause CapsLock  LGui   PScreen    n       n    BSpace  Delete  Insert     n   ],
-        [   n     LAlt   {C_ESC} {S_TAB} {STAB}   {CBS}   Left    Down     Up     Right ], // TODO: put back ScrollLock
-        [ Undo    {CUT}  {COPY}  {PASTE}    n     Enter   Home   PgDown   PgUp     End  ],
+    }
+    // Layer (1) - nav layer
+    { //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
+        [ Pause CapsLock  LGui   PScreen    n     {CBS}  BSpace  Delete  Insert ScrollLock ],
+        [   n     LGui   {C_ESC} {S_TAB} {STAB}   Left    Down     Up     Right   Enter ],
+        [ Undo    {CUT}  {COPY}  {PASTE}    n     Home   PgDown   PgUp     End  {SENTER} ],
         [   n       n       t       t       n      (3)      t       t       n       n   ],
-    }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
-        [   !       @     {G_SH}    $       %       ^       &     {G_AS}   '('     ')'  ],
-        [   1     {M_2}   {C_3}   {S_4}     5       6     {S_7}   {C_8}   {M_9}     0   ],
-        [   n       n    {COLON}    .    {EQUAL}    N  KpPlus KpMinus KpSlash KpAsterisk],
+    }
+    // Layer (2) - num layer
+    { //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
+        [   !       @       #       $       %       ^       &       *      '('     ')'  ],
+        [   1     {H_2}   {H_3}   {H_4}     5       6     {H_7}   {H_8}   {H_9}     0   ],
+        [ CapsLock  n    {COLON}    .    {EQUAL}    N  KpPlus KpMinus KpSlash KpAsterisk],
         [   n       n       t       t      (3)      n       t       t       n       n   ],
-    }{//[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
-        [  F1      F2     {G_F3}   F4      F5      F6      F7     {G_F8}   F9      F10  ],
+    }
+    // Layer (3) - fn layer
+    { //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
+        [  F1      F2      F3      F4      F5      F6      F7      F8      F9      F10  ],
         [   n     LAlt    LCtrl  LShift    '['     ']'   RShift   RCtrl   LAlt      n   ],
         [  F11     F12 NonUsBslash '`'      n       n     '\''    '\\'      -       =   ],
         [   n       n  {Custom(())} t       n       n       t       t       n       n   ],
