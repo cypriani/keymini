@@ -76,9 +76,9 @@ pub static LAYERS: keyberon::layout::Layers<10, 4, NUM_LAYERS, ()> = keyberon::l
     }
     // Layer (1) - nav layer
     { //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
-        [ Pause CapsLock  LGui   PScreen    n     {CBS}  BSpace  Delete  Insert ScrollLock ],
+        [ Pause CapsLock  LGui   PScreen    n     Home   PgDown   PgUp     End  ScrollLock ],
         [   n     LGui   {C_ESC} {S_TAB} {STAB}   Left    Down     Up     Right   Enter ],
-        [ Undo    {CUT}  {COPY}  {PASTE}    n     Home   PgDown   PgUp     End  {SENTER} ],
+        [ Undo    {CUT}  {COPY}  {PASTE}    n     {CBS}  BSpace  Delete  Insert {SENTER} ],
         [   n       n       t       t       n      (3)      t       t       n       n   ],
     }
     // Layer (2) - num layer
