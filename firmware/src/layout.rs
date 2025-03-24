@@ -21,6 +21,7 @@ const CUT: Action = m(&[LShift, Delete].as_slice());
 const COPY: Action = m(&[LCtrl, Insert].as_slice());
 const PASTE: Action = m(&[LShift, Insert].as_slice());
 
+const ATAB: Action = m(&[LAlt, Tab].as_slice());
 const STAB: Action = m(&[LShift, Tab].as_slice());
 const SENTER: Action = m(&[LShift, Enter].as_slice());
 const CBS: Action = m(&[LCtrl, BSpace].as_slice());
@@ -76,16 +77,16 @@ pub static LAYERS: keyberon::layout::Layers<10, 4, NUM_LAYERS, ()> = keyberon::l
     }
     // Layer (1) - nav layer
     { //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
-        [ Pause CapsLock  LGui   PScreen    n     Home   PgDown   PgUp     End  ScrollLock ],
+        [ CapsLock PScreen ScrollLock Pause n     Home   PgDown   PgUp     End      n   ],
         [   n     LGui   {C_ESC} {S_TAB} {STAB}   Left    Down     Up     Right   Enter ],
-        [ Undo    {CUT}  {COPY}  {PASTE}    n     {CBS}  BSpace  Delete  Insert {SENTER} ],
+        [ Undo    {CUT}  {COPY}  {PASTE} {ATAB}   {CBS}  BSpace  Delete  Insert {SENTER} ],
         [   n       n       t       t       n      (3)      t       t       n       n   ],
     }
     // Layer (2) - num layer
     { //[···+··· ···+··· ···+··· ···+··· ···+···|···+··· ···+··· ···+··· ···+··· ···+···],
         [   !       @       #       $       %       ^       &       *      '('     ')'  ],
         [   1     {H_2}   {H_3}   {H_4}     5       6     {H_7}   {H_8}   {H_9}     0   ],
-        [ CapsLock  n    {COLON}    .    {EQUAL}    N  KpPlus KpMinus KpSlash KpAsterisk],
+        [   n       n    {COLON}    .    {EQUAL}    N  KpPlus KpMinus KpSlash KpAsterisk],
         [   n       n       t       t      (3)      n       t       t       n       n   ],
     }
     // Layer (3) - fn layer
